@@ -84,6 +84,15 @@ def dupes(original: str, top_n: int = 5):
 def overview():
     return get_store().market_overview()
 
+@router.get("/parfum/asmi")
+def parfum_asmi():
+    result = get_store().search_master_data(brand="ASMI", limit=100)
+    products = result.get("hasil", [])
+    response = {"brand": "ASMI", "total": len(products), "hasil": products}
+    if not products:
+        response["pesan"] = "Belum ada data produk ASMI."
+    return response
+
 @router.get("/scout")
 def scout(focus: str = "all", gender: str | None = None, budget_max: float | None = None, limit: int = 10):
     return get_store().scout_opportunity(focus=focus, gender=gender, budget_max=budget_max, limit=limit)
