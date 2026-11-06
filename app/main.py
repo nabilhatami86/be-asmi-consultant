@@ -6,4 +6,5 @@ from app.services.data import get_store
 @app.on_event("startup")
 def _warm() -> None:
     get_store()
-    
+
+
