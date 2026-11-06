@@ -1,0 +1,3 @@
+﻿model,target,n_data,n_positif,prevalensi,AUC_acak_5fold,PR_AUC_acak_5fold,AUC_brand_baru,PR_AUC_brand_baru,catatan
+model_bagus,ind_bagus,249,97,0.39,0.666,0.613,0.575,0.507,AUC 0.5 = tebakan acak. Pakai skema 'brand baru' untuk menilai kemampuan pada brand yang belum dikenal.
+model_top10000,is_top10000,240,119,0.496,0.774,0.719,0.602,0.546,AUC 0.5 = tebakan acak. Pakai skema 'brand baru' untuk menilai kemampuan pada brand yang belum dikenal.

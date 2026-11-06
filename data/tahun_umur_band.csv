@@ -1,0 +1,6 @@
+﻿umur_band,n_varian,sold_lb_median,pct_10000plus,pct_bagus,pct_norestock
+<=6 bln,22,1000.0,5,64,0
+6-12 bln,36,7500.0,39,39,0
+12-24 bln,54,4000.0,43,44,6
+24-36 bln,41,6000.0,37,32,5
+>36 bln,96,10000.0,69,33,5

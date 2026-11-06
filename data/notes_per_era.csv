@@ -1,0 +1,271 @@
+﻿layer,era,peringkat,note,pct_varian,n_varian_era
+top,2018-2021,1,bergamot,39.0,41
+top,2018-2021,2,apple,22.0,41
+top,2018-2021,3,mandarin,17.1,41
+top,2018-2021,4,grapefruit,14.6,41
+top,2018-2021,5,citrus,12.2,41
+top,2018-2021,6,pink pepper,12.2,41
+top,2018-2021,7,pear,12.2,41
+top,2018-2021,8,blackcurrant,9.8,41
+top,2018-2021,9,raspberry,9.8,41
+top,2018-2021,10,vanilla,9.8,41
+top,2018-2021,11,lemon,9.8,41
+top,2018-2021,12,green,7.3,41
+top,2018-2021,13,fruity (generic),7.3,41
+top,2018-2021,14,lavender,7.3,41
+top,2018-2021,15,marine/aquatic/salt,7.3,41
+top,2022,1,pink pepper,29.2,24
+top,2022,2,bergamot,16.7,24
+top,2022,3,apple,16.7,24
+top,2022,4,orange,16.7,24
+top,2022,5,pear,12.5,24
+top,2022,6,green,8.3,24
+top,2022,7,blackcurrant,8.3,24
+top,2022,8,chocolate/cacao,8.3,24
+top,2022,9,peach,8.3,24
+top,2022,10,vanilla,8.3,24
+top,2022,11,rose,8.3,24
+top,2022,12,tea/matcha,8.3,24
+top,2022,13,mandarin,8.3,24
+top,2022,14,lemon,8.3,24
+top,2022,15,marine/aquatic/salt,8.3,24
+top,2023,1,bergamot,21.1,38
+top,2023,2,pear,18.4,38
+top,2023,3,apple,18.4,38
+top,2023,4,pink pepper,13.2,38
+top,2023,5,grapefruit,13.2,38
+top,2023,6,green,13.2,38
+top,2023,7,rose,10.5,38
+top,2023,8,mandarin,10.5,38
+top,2023,9,violet,7.9,38
+top,2023,10,tea/matcha,7.9,38
+top,2023,11,jasmine,7.9,38
+top,2023,12,marine/aquatic/salt,7.9,38
+top,2023,13,cinnamon,7.9,38
+top,2023,14,raspberry,7.9,38
+top,2023,15,pepper,7.9,38
+top,2024,1,bergamot,26.8,41
+top,2024,2,mandarin,19.5,41
+top,2024,3,apple,14.6,41
+top,2024,4,pink pepper,14.6,41
+top,2024,5,lemon,12.2,41
+top,2024,6,ginger,7.3,41
+top,2024,7,black pepper,7.3,41
+top,2024,8,cinnamon,7.3,41
+top,2024,9,cardamom,7.3,41
+top,2024,10,green,7.3,41
+top,2024,11,orange,7.3,41
+top,2024,12,pear,7.3,41
+top,2024,13,orange blossom,7.3,41
+top,2024,14,jasmine,7.3,41
+top,2024,15,tea/matcha,7.3,41
+top,2025,1,bergamot,34.0,53
+top,2025,2,mandarin,17.0,53
+top,2025,3,pear,15.1,53
+top,2025,4,lemon,13.2,53
+top,2025,5,orange,13.2,53
+top,2025,6,citrus,13.2,53
+top,2025,7,apple,11.3,53
+top,2025,8,blackcurrant,9.4,53
+top,2025,9,grapefruit,9.4,53
+top,2025,10,green,9.4,53
+top,2025,11,lavender,9.4,53
+top,2025,12,ginger,5.7,53
+top,2025,13,peach,5.7,53
+top,2025,14,mint,5.7,53
+top,2025,15,cardamom,5.7,53
+top,2026,1,bergamot,46.2,52
+top,2026,2,apple,17.3,52
+top,2026,3,mandarin,17.3,52
+top,2026,4,ginger,15.4,52
+top,2026,5,orange,13.5,52
+top,2026,6,green,11.5,52
+top,2026,7,grapefruit,9.6,52
+top,2026,8,pear,9.6,52
+top,2026,9,rose,7.7,52
+top,2026,10,aldehydes,7.7,52
+top,2026,11,tea/matcha,7.7,52
+top,2026,12,lemon,7.7,52
+top,2026,13,blackcurrant,5.8,52
+top,2026,14,pink pepper,5.8,52
+top,2026,15,fruity (generic),5.8,52
+mid,2018-2021,1,jasmine,39.0,41
+mid,2018-2021,2,rose,31.7,41
+mid,2018-2021,3,lily of the valley,29.3,41
+mid,2018-2021,4,floral (generic),14.6,41
+mid,2018-2021,5,ylang-ylang,12.2,41
+mid,2018-2021,6,lavender,12.2,41
+mid,2018-2021,7,peony,9.8,41
+mid,2018-2021,8,orange blossom,9.8,41
+mid,2018-2021,9,violet,7.3,41
+mid,2018-2021,10,tea/matcha,7.3,41
+mid,2018-2021,11,freesia,7.3,41
+mid,2018-2021,12,clove,7.3,41
+mid,2018-2021,13,iris,7.3,41
+mid,2018-2021,14,sesame,4.9,41
+mid,2018-2021,15,neroli,4.9,41
+mid,2022,1,jasmine,29.2,24
+mid,2022,2,rose,16.7,24
+mid,2022,3,tuberose,16.7,24
+mid,2022,4,cedarwood,12.5,24
+mid,2022,5,floral (generic),12.5,24
+mid,2022,6,lily of the valley,12.5,24
+mid,2022,7,violet,12.5,24
+mid,2022,8,orange blossom,12.5,24
+mid,2022,9,peony,8.3,24
+mid,2022,10,amber,8.3,24
+mid,2022,11,cinnamon,8.3,24
+mid,2022,12,vanilla,8.3,24
+mid,2022,13,peach,8.3,24
+mid,2022,14,earthy accents,4.2,24
+mid,2022,15,coconut,4.2,24
+mid,2023,1,rose,26.3,38
+mid,2023,2,jasmine,23.7,38
+mid,2023,3,iris,21.1,38
+mid,2023,4,lily of the valley,18.4,38
+mid,2023,5,nutmeg,13.2,38
+mid,2023,6,orange,13.2,38
+mid,2023,7,violet,13.2,38
+mid,2023,8,sandalwood,13.2,38
+mid,2023,9,cedarwood,13.2,38
+mid,2023,10,ylang-ylang,10.5,38
+mid,2023,11,apple,10.5,38
+mid,2023,12,lavender,7.9,38
+mid,2023,13,sage,7.9,38
+mid,2023,14,freesia,7.9,38
+mid,2023,15,caramel,7.9,38
+mid,2024,1,rose,17.1,41
+mid,2024,2,iris,14.6,41
+mid,2024,3,floral (generic),12.2,41
+mid,2024,4,milk/cream,12.2,41
+mid,2024,5,jasmine,12.2,41
+mid,2024,6,lily of the valley,12.2,41
+mid,2024,7,cashmeran,9.8,41
+mid,2024,8,orange blossom,9.8,41
+mid,2024,9,tuberose,9.8,41
+mid,2024,10,vanilla,9.8,41
+mid,2024,11,violet,7.3,41
+mid,2024,12,marine/aquatic/salt,7.3,41
+mid,2024,13,orange,7.3,41
+mid,2024,14,tea/matcha,7.3,41
+mid,2024,15,incense,7.3,41
+mid,2025,1,jasmine,26.4,53
+mid,2025,2,rose,22.6,53
+mid,2025,3,lily of the valley,11.3,53
+mid,2025,4,lavender,11.3,53
+mid,2025,5,caramel,9.4,53
+mid,2025,6,woody (generic),9.4,53
+mid,2025,7,ylang-ylang,7.5,53
+mid,2025,8,violet,7.5,53
+mid,2025,9,floral (generic),7.5,53
+mid,2025,10,ginger,7.5,53
+mid,2025,11,vanilla,7.5,53
+mid,2025,12,orange blossom,5.7,53
+mid,2025,13,pink pepper,5.7,53
+mid,2025,14,grapefruit,5.7,53
+mid,2025,15,heliotrope,5.7,53
+mid,2026,1,jasmine,34.6,52
+mid,2026,2,rose,26.9,52
+mid,2026,3,ginger,13.5,52
+mid,2026,4,lily of the valley,13.5,52
+mid,2026,5,cedarwood,9.6,52
+mid,2026,6,peony,9.6,52
+mid,2026,7,coconut,7.7,52
+mid,2026,8,lavender,7.7,52
+mid,2026,9,tea/matcha,7.7,52
+mid,2026,10,magnolia,7.7,52
+mid,2026,11,neroli,5.8,52
+mid,2026,12,solar,5.8,52
+mid,2026,13,geranium,5.8,52
+mid,2026,14,orange blossom,5.8,52
+mid,2026,15,musk,5.8,52
+base,2018-2021,1,musk,65.9,41
+base,2018-2021,2,vanilla,36.6,41
+base,2018-2021,3,amber,29.3,41
+base,2018-2021,4,cedarwood,24.4,41
+base,2018-2021,5,tonka bean,22.0,41
+base,2018-2021,6,patchouli,19.5,41
+base,2018-2021,7,sandalwood,17.1,41
+base,2018-2021,8,oakmoss,9.8,41
+base,2018-2021,9,cashmeran,9.8,41
+base,2018-2021,10,woody (generic),9.8,41
+base,2018-2021,11,leather,7.3,41
+base,2018-2021,12,praline,7.3,41
+base,2018-2021,13,vetiver,7.3,41
+base,2018-2021,14,caramel,7.3,41
+base,2018-2021,15,ambergris,4.9,41
+base,2022,1,musk,54.2,24
+base,2022,2,vanilla,41.7,24
+base,2022,3,amber,29.2,24
+base,2022,4,sandalwood,29.2,24
+base,2022,5,patchouli,25.0,24
+base,2022,6,cedarwood,20.8,24
+base,2022,7,tonka bean,16.7,24
+base,2022,8,jasmine,8.3,24
+base,2022,9,vetiver,8.3,24
+base,2022,10,caramel,8.3,24
+base,2022,11,marine/aquatic/salt,8.3,24
+base,2022,12,powdery,8.3,24
+base,2022,13,iris,4.2,24
+base,2022,14,heliotrope,4.2,24
+base,2022,15,berries,4.2,24
+base,2023,1,amber,52.6,38
+base,2023,2,musk,52.6,38
+base,2023,3,vanilla,44.7,38
+base,2023,4,patchouli,31.6,38
+base,2023,5,sandalwood,28.9,38
+base,2023,6,tonka bean,21.1,38
+base,2023,7,cedarwood,18.4,38
+base,2023,8,vetiver,18.4,38
+base,2023,9,cashmeran,13.2,38
+base,2023,10,oakmoss,13.2,38
+base,2023,11,labdanum,7.9,38
+base,2023,12,iris,5.3,38
+base,2023,13,ambergris,5.3,38
+base,2023,14,caramel,5.3,38
+base,2023,15,leather,5.3,38
+base,2024,1,musk,53.7,41
+base,2024,2,amber,26.8,41
+base,2024,3,vanilla,24.4,41
+base,2024,4,cedarwood,22.0,41
+base,2024,5,patchouli,22.0,41
+base,2024,6,vetiver,17.1,41
+base,2024,7,woody (generic),17.1,41
+base,2024,8,sandalwood,12.2,41
+base,2024,9,oakmoss,9.8,41
+base,2024,10,tonka bean,9.8,41
+base,2024,11,caramel,7.3,41
+base,2024,12,cashmeran,7.3,41
+base,2024,13,ambergris,7.3,41
+base,2024,14,ambrette,4.9,41
+base,2024,15,ambroxan (sintetis),4.9,41
+base,2025,1,musk,62.3,53
+base,2025,2,vanilla,39.6,53
+base,2025,3,amber,28.3,53
+base,2025,4,cedarwood,24.5,53
+base,2025,5,sandalwood,18.9,53
+base,2025,6,patchouli,18.9,53
+base,2025,7,woody (generic),17.0,53
+base,2025,8,tonka bean,15.1,53
+base,2025,9,vetiver,9.4,53
+base,2025,10,oakmoss,9.4,53
+base,2025,11,amberwood,7.5,53
+base,2025,12,ambroxan (sintetis),7.5,53
+base,2025,13,cashmeran,7.5,53
+base,2025,14,ambrette,3.8,53
+base,2025,15,iris,3.8,53
+base,2026,1,musk,50.0,52
+base,2026,2,patchouli,28.8,52
+base,2026,3,amber,28.8,52
+base,2026,4,vanilla,23.1,52
+base,2026,5,tonka bean,15.4,52
+base,2026,6,vetiver,15.4,52
+base,2026,7,woody (generic),13.5,52
+base,2026,8,ambroxan (sintetis),11.5,52
+base,2026,9,cedarwood,11.5,52
+base,2026,10,cashmeran,9.6,52
+base,2026,11,sandalwood,9.6,52
+base,2026,12,guaiac wood,7.7,52
+base,2026,13,oakmoss,7.7,52
+base,2026,14,tea/matcha,5.8,52
+base,2026,15,bergamot,5.8,52

@@ -1,0 +1,584 @@
+﻿kelompok,layer,peringkat,note,pct_varian,n_varian_kelompok
+Mykonos,top,1,bergamot,33.0,63
+Mykonos,top,2,mandarin,19.0,63
+Mykonos,top,3,apple,16.0,63
+Mykonos,top,4,lemon,14.0,63
+Mykonos,top,5,vanilla,11.0,63
+Mykonos,top,6,rose,11.0,63
+Mykonos,top,7,pink pepper,11.0,63
+Mykonos,top,8,orange,10.0,63
+Mykonos,top,9,jasmine,10.0,63
+Mykonos,top,10,ginger,10.0,63
+Mykonos,top,11,pear,10.0,63
+Mykonos,top,12,grapefruit,10.0,63
+Mykonos,top,13,tea/matcha,8.0,63
+Mykonos,top,14,green,8.0,63
+Mykonos,top,15,fruity (generic),8.0,63
+Mykonos,mid,1,jasmine,37.0,63
+Mykonos,mid,2,rose,24.0,63
+Mykonos,mid,3,lily of the valley,17.0,63
+Mykonos,mid,4,milk/cream,13.0,63
+Mykonos,mid,5,tea/matcha,13.0,63
+Mykonos,mid,6,violet,13.0,63
+Mykonos,mid,7,marine/aquatic/salt,11.0,63
+Mykonos,mid,8,lavender,10.0,63
+Mykonos,mid,9,caramel,10.0,63
+Mykonos,mid,10,vanilla,10.0,63
+Mykonos,mid,11,orange,10.0,63
+Mykonos,mid,12,floral (generic),8.0,63
+Mykonos,mid,13,ginger,8.0,63
+Mykonos,mid,14,iris,8.0,63
+Mykonos,mid,15,praline,6.0,63
+Mykonos,base,1,musk,65.0,63
+Mykonos,base,2,vanilla,43.0,63
+Mykonos,base,3,amber,38.0,63
+Mykonos,base,4,patchouli,27.0,63
+Mykonos,base,5,tonka bean,21.0,63
+Mykonos,base,6,cedarwood,19.0,63
+Mykonos,base,7,woody (generic),14.0,63
+Mykonos,base,8,sandalwood,11.0,63
+Mykonos,base,9,cashmeran,11.0,63
+Mykonos,base,10,oakmoss,10.0,63
+Mykonos,base,11,vetiver,10.0,63
+Mykonos,base,12,amberwood,8.0,63
+Mykonos,base,13,caramel,8.0,63
+Mykonos,base,14,ambroxan (sintetis),6.0,63
+Mykonos,base,15,guaiac wood,6.0,63
+Velixir,top,1,bergamot,50.0,24
+Velixir,top,2,mandarin,25.0,24
+Velixir,top,3,ginger,17.0,24
+Velixir,top,4,pear,17.0,24
+Velixir,top,5,grapefruit,12.0,24
+Velixir,top,6,orange,12.0,24
+Velixir,top,7,mint,12.0,24
+Velixir,top,8,lemon,8.0,24
+Velixir,top,9,woody (generic),8.0,24
+Velixir,top,10,rose,8.0,24
+Velixir,top,11,magnolia,8.0,24
+Velixir,top,12,litchi,8.0,24
+Velixir,top,13,ambrette,8.0,24
+Velixir,top,14,green,8.0,24
+Velixir,top,15,citrus,8.0,24
+Velixir,mid,1,ginger,21.0,24
+Velixir,mid,2,rose,17.0,24
+Velixir,mid,3,jasmine,12.0,24
+Velixir,mid,4,lavender,12.0,24
+Velixir,mid,5,vanilla,12.0,24
+Velixir,mid,6,bergamot,8.0,24
+Velixir,mid,7,berries,8.0,24
+Velixir,mid,8,mandarin,8.0,24
+Velixir,mid,9,magnolia,8.0,24
+Velixir,mid,10,peony,8.0,24
+Velixir,mid,11,orange blossom,8.0,24
+Velixir,mid,12,benzoin,8.0,24
+Velixir,mid,13,neroli,8.0,24
+Velixir,mid,14,woody (generic),8.0,24
+Velixir,mid,15,sandalwood,8.0,24
+Velixir,base,1,musk,38.0,24
+Velixir,base,2,amber,21.0,24
+Velixir,base,3,patchouli,21.0,24
+Velixir,base,4,vetiver,21.0,24
+Velixir,base,5,ambroxan (sintetis),17.0,24
+Velixir,base,6,sandalwood,17.0,24
+Velixir,base,7,cedarwood,17.0,24
+Velixir,base,8,woody (generic),17.0,24
+Velixir,base,9,tonka bean,12.0,24
+Velixir,base,10,magnolia,8.0,24
+Velixir,base,11,mandarin,8.0,24
+Velixir,base,12,bergamot,8.0,24
+Velixir,base,13,ginger,8.0,24
+Velixir,base,14,tea/matcha,8.0,24
+Velixir,base,15,vanilla,8.0,24
+SAFF & Co.,top,1,mandarin,30.0,23
+SAFF & Co.,top,2,green,22.0,23
+SAFF & Co.,top,3,bergamot,17.0,23
+SAFF & Co.,top,4,pear,17.0,23
+SAFF & Co.,top,5,pink pepper,13.0,23
+SAFF & Co.,top,6,apple,9.0,23
+SAFF & Co.,top,7,neroli,9.0,23
+SAFF & Co.,top,8,saffron,9.0,23
+SAFF & Co.,top,9,bigarade,9.0,23
+SAFF & Co.,top,10,cajuput,9.0,23
+SAFF & Co.,top,11,galbanum,9.0,23
+SAFF & Co.,top,12,aldehydes,4.0,23
+SAFF & Co.,top,13,blackcurrant,4.0,23
+SAFF & Co.,top,14,dalanghita,4.0,23
+SAFF & Co.,top,15,grapefruit,4.0,23
+SAFF & Co.,mid,1,rose,35.0,23
+SAFF & Co.,mid,2,lily of the valley,26.0,23
+SAFF & Co.,mid,3,jasmine,26.0,23
+SAFF & Co.,mid,4,iris,17.0,23
+SAFF & Co.,mid,5,ylang-ylang,13.0,23
+SAFF & Co.,mid,6,freesia,9.0,23
+SAFF & Co.,mid,7,tuberose,9.0,23
+SAFF & Co.,mid,8,orange,9.0,23
+SAFF & Co.,mid,9,sampaguita,9.0,23
+SAFF & Co.,mid,10,duchesse de nemours,4.0,23
+SAFF & Co.,mid,11,coffee,4.0,23
+SAFF & Co.,mid,12,cedarwood,4.0,23
+SAFF & Co.,mid,13,calypsone,4.0,23
+SAFF & Co.,mid,14,blackcurrant,4.0,23
+SAFF & Co.,mid,15,aquamare,4.0,23
+SAFF & Co.,base,1,musk,43.0,23
+SAFF & Co.,base,2,cashmeran,30.0,23
+SAFF & Co.,base,3,amber,30.0,23
+SAFF & Co.,base,4,patchouli,26.0,23
+SAFF & Co.,base,5,cedarwood,22.0,23
+SAFF & Co.,base,6,sandalwood,17.0,23
+SAFF & Co.,base,7,tonka bean,13.0,23
+SAFF & Co.,base,8,heliotrope,9.0,23
+SAFF & Co.,base,9,ambergris,9.0,23
+SAFF & Co.,base,10,vetiver,9.0,23
+SAFF & Co.,base,11,vanilla,9.0,23
+SAFF & Co.,base,12,leather,4.0,23
+SAFF & Co.,base,13,fior di latte,4.0,23
+SAFF & Co.,base,14,edenolide,4.0,23
+SAFF & Co.,base,15,coconut,4.0,23
+HMNS,top,1,bergamot,35.0,20
+HMNS,top,2,pink pepper,20.0,20
+HMNS,top,3,apple,20.0,20
+HMNS,top,4,green,20.0,20
+HMNS,top,5,grapefruit,10.0,20
+HMNS,top,6,coriander seed,10.0,20
+HMNS,top,7,magnolia,10.0,20
+HMNS,top,8,chocolate/cacao,10.0,20
+HMNS,top,9,caramel,10.0,20
+HMNS,top,10,lemon,10.0,20
+HMNS,top,11,rose,10.0,20
+HMNS,top,12,ambrette,5.0,20
+HMNS,top,13,clove,5.0,20
+HMNS,top,14,citrus,5.0,20
+HMNS,top,15,cactus,5.0,20
+HMNS,mid,1,rose,30.0,20
+HMNS,mid,2,jasmine,25.0,20
+HMNS,mid,3,orange blossom,15.0,20
+HMNS,mid,4,lavender,15.0,20
+HMNS,mid,5,tuberose,15.0,20
+HMNS,mid,6,ylang-ylang,10.0,20
+HMNS,mid,7,peony,10.0,20
+HMNS,mid,8,solar,10.0,20
+HMNS,mid,9,lily of the valley,10.0,20
+HMNS,mid,10,iris,10.0,20
+HMNS,mid,11,patchouli,10.0,20
+HMNS,mid,12,ambroxan (sintetis),5.0,20
+HMNS,mid,13,caramel,5.0,20
+HMNS,mid,14,ciste abs lmr,5.0,20
+HMNS,mid,15,chocolate/cacao,5.0,20
+HMNS,base,1,musk,40.0,20
+HMNS,base,2,vanilla,35.0,20
+HMNS,base,3,amber,30.0,20
+HMNS,base,4,vetiver,30.0,20
+HMNS,base,5,sandalwood,25.0,20
+HMNS,base,6,cedarwood,20.0,20
+HMNS,base,7,tonka bean,20.0,20
+HMNS,base,8,patchouli,15.0,20
+HMNS,base,9,leather,10.0,20
+HMNS,base,10,labdanum,10.0,20
+HMNS,base,11,cashmeran,5.0,20
+HMNS,base,12,balsam,5.0,20
+HMNS,base,13,ambrette,5.0,20
+HMNS,base,14,amberwood,5.0,20
+HMNS,base,15,milk/cream,5.0,20
+Onix,top,1,bergamot,38.0,13
+Onix,top,2,apple,31.0,13
+Onix,top,3,pink pepper,23.0,13
+Onix,top,4,raspberry,23.0,13
+Onix,top,5,blackcurrant,15.0,13
+Onix,top,6,lemon,15.0,13
+Onix,top,7,saffron,15.0,13
+Onix,top,8,orange blossom,15.0,13
+Onix,top,9,peach,15.0,13
+Onix,top,10,ginger,8.0,13
+Onix,top,11,coriander,8.0,13
+Onix,top,12,fir,8.0,13
+Onix,top,13,citrus,8.0,13
+Onix,top,14,cardamon,8.0,13
+Onix,top,15,mandarin,8.0,13
+Onix,mid,1,jasmine,62.0,13
+Onix,mid,2,floral (generic),23.0,13
+Onix,mid,3,freesia,23.0,13
+Onix,mid,4,rose,23.0,13
+Onix,mid,5,violet,23.0,13
+Onix,mid,6,coconut,15.0,13
+Onix,mid,7,lily of the valley,15.0,13
+Onix,mid,8,orange,15.0,13
+Onix,mid,9,oud,15.0,13
+Onix,mid,10,ylang-ylang,15.0,13
+Onix,mid,11,cyclamen,8.0,13
+Onix,mid,12,fig,8.0,13
+Onix,mid,13,clove,8.0,13
+Onix,mid,14,caramel,8.0,13
+Onix,mid,15,amber,8.0,13
+Onix,base,1,musk,85.0,13
+Onix,base,2,amber,69.0,13
+Onix,base,3,vanilla,69.0,13
+Onix,base,4,cedarwood,62.0,13
+Onix,base,5,sandalwood,38.0,13
+Onix,base,6,patchouli,31.0,13
+Onix,base,7,caramel,31.0,13
+Onix,base,8,oakmoss,23.0,13
+Onix,base,9,cabrueva,8.0,13
+Onix,base,10,marine/aquatic/salt,8.0,13
+Onix,base,11,labdanum,8.0,13
+Onix,base,12,guaiac wood,8.0,13
+Onix,base,13,coconut,8.0,13
+Onix,base,14,benzoin,8.0,13
+Onix,base,15,sweet,8.0,13
+Project 1945,top,1,bergamot,38.0,13
+Project 1945,top,2,apple,31.0,13
+Project 1945,top,3,mandarin,31.0,13
+Project 1945,top,4,orange,23.0,13
+Project 1945,top,5,fig,23.0,13
+Project 1945,top,6,pear,23.0,13
+Project 1945,top,7,rice,15.0,13
+Project 1945,top,8,grapefruit,15.0,13
+Project 1945,top,9,tea/matcha,15.0,13
+Project 1945,top,10,cardamom,8.0,13
+Project 1945,top,11,black pepper,8.0,13
+Project 1945,top,12,carrot,8.0,13
+Project 1945,top,13,basil,8.0,13
+Project 1945,top,14,jasmine,8.0,13
+Project 1945,top,15,incense,8.0,13
+Project 1945,mid,1,jasmine,23.0,13
+Project 1945,mid,2,lily of the valley,23.0,13
+Project 1945,mid,3,incense,23.0,13
+Project 1945,mid,4,cedarwood,15.0,13
+Project 1945,mid,5,peony,15.0,13
+Project 1945,mid,6,sage,15.0,13
+Project 1945,mid,7,sesame,15.0,13
+Project 1945,mid,8,clove,15.0,13
+Project 1945,mid,9,lavender,15.0,13
+Project 1945,mid,10,green,15.0,13
+Project 1945,mid,11,bergamot,8.0,13
+Project 1945,mid,12,apple,8.0,13
+Project 1945,mid,13,cardamom,8.0,13
+Project 1945,mid,14,black pepper,8.0,13
+Project 1945,mid,15,coffee,8.0,13
+Project 1945,base,1,musk,69.0,13
+Project 1945,base,2,vanilla,38.0,13
+Project 1945,base,3,tonka bean,31.0,13
+Project 1945,base,4,sandalwood,31.0,13
+Project 1945,base,5,cedarwood,23.0,13
+Project 1945,base,6,vetiver,15.0,13
+Project 1945,base,7,benzoin,15.0,13
+Project 1945,base,8,amber,15.0,13
+Project 1945,base,9,oakmoss,15.0,13
+Project 1945,base,10,ambroxan (sintetis),8.0,13
+Project 1945,base,11,green,8.0,13
+Project 1945,base,12,cardamom,8.0,13
+Project 1945,base,13,black pepper,8.0,13
+Project 1945,base,14,berries,8.0,13
+Project 1945,base,15,apple,8.0,13
+BSP,top,1,citrus,44.0,25
+BSP,top,2,bergamot,16.0,25
+BSP,top,3,apple,12.0,25
+BSP,top,4,orange,8.0,25
+BSP,top,5,marine/aquatic/salt,8.0,25
+BSP,top,6,lychee,8.0,25
+BSP,top,7,aromatic,4.0,25
+BSP,top,8,fruity (generic),4.0,25
+BSP,top,9,cardamom,4.0,25
+BSP,top,10,fresh,4.0,25
+BSP,top,11,lemon,4.0,25
+BSP,top,12,lavender,4.0,25
+BSP,top,13,grapefruit,4.0,25
+BSP,top,14,peach,4.0,25
+BSP,top,15,pink pepper,4.0,25
+BSP,mid,1,floral (generic),20.0,25
+BSP,mid,2,fresh spicy,8.0,25
+BSP,mid,3,-,8.0,25
+BSP,mid,4,green,8.0,25
+BSP,mid,5,nutmeg,8.0,25
+BSP,mid,6,jasmine,8.0,25
+BSP,mid,7,lavender,8.0,25
+BSP,mid,8,rose,8.0,25
+BSP,mid,9,cashmeran,4.0,25
+BSP,mid,10,caramel,4.0,25
+BSP,mid,11,chestnut,4.0,25
+BSP,mid,12,cedarwood,4.0,25
+BSP,mid,13,butter cookies,4.0,25
+BSP,mid,14,almond,4.0,25
+BSP,mid,15,aromatic,4.0,25
+BSP,base,1,woody (generic),40.0,25
+BSP,base,2,musk,36.0,25
+BSP,base,3,vanilla,24.0,25
+BSP,base,4,patchouli,12.0,25
+BSP,base,5,amber,12.0,25
+BSP,base,6,cedarwood,8.0,25
+BSP,base,7,-,8.0,25
+BSP,base,8,marine/aquatic/salt,4.0,25
+BSP,base,9,ambroxan (sintetis),4.0,25
+BSP,base,10,powdery,4.0,25
+BSP,base,11,oud,4.0,25
+BSP,base,12,tonka bean,4.0,25
+BSP,base,13,sandalwood,4.0,25
+LAYR,top,1,pear,47.0,15
+LAYR,top,2,bergamot,40.0,15
+LAYR,top,3,marine/aquatic/salt,20.0,15
+LAYR,top,4,mandarin,20.0,15
+LAYR,top,5,violet,20.0,15
+LAYR,top,6,tea/matcha,20.0,15
+LAYR,top,7,green,20.0,15
+LAYR,top,8,orange,13.0,15
+LAYR,top,9,incense,13.0,15
+LAYR,top,10,rosemary,13.0,15
+LAYR,top,11,thyme,13.0,15
+LAYR,top,12,lemon,13.0,15
+LAYR,top,13,rose,13.0,15
+LAYR,top,14,apple,13.0,15
+LAYR,top,15,basil,7.0,15
+LAYR,mid,1,rose,60.0,15
+LAYR,mid,2,lily of the valley,47.0,15
+LAYR,mid,3,jasmine,40.0,15
+LAYR,mid,4,apple,20.0,15
+LAYR,mid,5,iris,20.0,15
+LAYR,mid,6,orange,20.0,15
+LAYR,mid,7,violet,20.0,15
+LAYR,mid,8,ylang-ylang,20.0,15
+LAYR,mid,9,fruity (generic),13.0,15
+LAYR,mid,10,floral (generic),13.0,15
+LAYR,mid,11,freesia,13.0,15
+LAYR,mid,12,magnolia,13.0,15
+LAYR,mid,13,peony,13.0,15
+LAYR,mid,14,geranium,13.0,15
+LAYR,mid,15,cyclamen,7.0,15
+LAYR,base,1,musk,87.0,15
+LAYR,base,2,patchouli,60.0,15
+LAYR,base,3,amber,53.0,15
+LAYR,base,4,vanilla,53.0,15
+LAYR,base,5,vetiver,40.0,15
+LAYR,base,6,sandalwood,33.0,15
+LAYR,base,7,oakmoss,33.0,15
+LAYR,base,8,cedarwood,20.0,15
+LAYR,base,9,leather,20.0,15
+LAYR,base,10,cashmeran,20.0,15
+LAYR,base,11,tonka bean,20.0,15
+LAYR,base,12,incense,13.0,15
+LAYR,base,13,labdanum,13.0,15
+LAYR,base,14,ambergris,7.0,15
+LAYR,base,15,beetroot,7.0,15
+Alchemist Fragrance,top,1,pink pepper,50.0,10
+Alchemist Fragrance,top,2,black pepper,20.0,10
+Alchemist Fragrance,top,3,orange,20.0,10
+Alchemist Fragrance,top,4,apple,10.0,10
+Alchemist Fragrance,top,5,almond,10.0,10
+Alchemist Fragrance,top,6,aldehydes,10.0,10
+Alchemist Fragrance,top,7,bergamot,10.0,10
+Alchemist Fragrance,top,8,chocolate/cacao,10.0,10
+Alchemist Fragrance,top,9,cinnamon,10.0,10
+Alchemist Fragrance,top,10,blackcurrant,10.0,10
+Alchemist Fragrance,top,11,chamomile,10.0,10
+Alchemist Fragrance,top,12,jasmine,10.0,10
+Alchemist Fragrance,top,13,green,10.0,10
+Alchemist Fragrance,top,14,marine/aquatic/salt,10.0,10
+Alchemist Fragrance,top,15,pear,10.0,10
+Alchemist Fragrance,mid,1,jasmine,30.0,10
+Alchemist Fragrance,mid,2,tuberose,30.0,10
+Alchemist Fragrance,mid,3,rose,30.0,10
+Alchemist Fragrance,mid,4,cedarwood,20.0,10
+Alchemist Fragrance,mid,5,violet,20.0,10
+Alchemist Fragrance,mid,6,orange blossom,20.0,10
+Alchemist Fragrance,mid,7,floral (generic),20.0,10
+Alchemist Fragrance,mid,8,lily of the valley,20.0,10
+Alchemist Fragrance,mid,9,iris,10.0,10
+Alchemist Fragrance,mid,10,ambrette,10.0,10
+Alchemist Fragrance,mid,11,cashmeran,10.0,10
+Alchemist Fragrance,mid,12,coconut,10.0,10
+Alchemist Fragrance,mid,13,plum,10.0,10
+Alchemist Fragrance,mid,14,peony,10.0,10
+Alchemist Fragrance,mid,15,oiellet (carnation),10.0,10
+Alchemist Fragrance,base,1,musk,70.0,10
+Alchemist Fragrance,base,2,patchouli,40.0,10
+Alchemist Fragrance,base,3,sandalwood,30.0,10
+Alchemist Fragrance,base,4,cedarwood,20.0,10
+Alchemist Fragrance,base,5,vanilla,20.0,10
+Alchemist Fragrance,base,6,woody (generic),20.0,10
+Alchemist Fragrance,base,7,ambrette,10.0,10
+Alchemist Fragrance,base,8,amber,10.0,10
+Alchemist Fragrance,base,9,oakmoss,10.0,10
+Alchemist Fragrance,base,10,marine/aquatic/salt,10.0,10
+Alchemist Fragrance,base,11,leather,10.0,10
+Alchemist Fragrance,base,12,honey,10.0,10
+Alchemist Fragrance,base,13,praline,10.0,10
+Alchemist Fragrance,base,14,powdery,10.0,10
+Alchemist Fragrance,base,15,vetiver,10.0,10
+Fordive,top,1,grapefruit,33.0,12
+Fordive,top,2,pink pepper,25.0,12
+Fordive,top,3,green,17.0,12
+Fordive,top,4,apple,17.0,12
+Fordive,top,5,peony,17.0,12
+Fordive,top,6,sage,17.0,12
+Fordive,top,7,pear,17.0,12
+Fordive,top,8,bergamot,17.0,12
+Fordive,top,9,juniper,8.0,12
+Fordive,top,10,durian,8.0,12
+Fordive,top,11,blackcurrant,8.0,12
+Fordive,top,12,cardamom,8.0,12
+Fordive,top,13,mint,8.0,12
+Fordive,top,14,marine/aquatic/salt,8.0,12
+Fordive,top,15,litchi,8.0,12
+Fordive,mid,1,lily of the valley,42.0,12
+Fordive,mid,2,jasmine,42.0,12
+Fordive,mid,3,rose,25.0,12
+Fordive,mid,4,vanilla,17.0,12
+Fordive,mid,5,cinnamon,17.0,12
+Fordive,mid,6,cumin,8.0,12
+Fordive,mid,7,candy,8.0,12
+Fordive,mid,8,caramel,8.0,12
+Fordive,mid,9,cherry,8.0,12
+Fordive,mid,10,amber,8.0,12
+Fordive,mid,11,incense,8.0,12
+Fordive,mid,12,honey,8.0,12
+Fordive,mid,13,floral (generic),8.0,12
+Fordive,mid,14,dan wisteria,8.0,12
+Fordive,mid,15,nutmeg,8.0,12
+Fordive,base,1,amber,50.0,12
+Fordive,base,2,musk,42.0,12
+Fordive,base,3,cashmeran,25.0,12
+Fordive,base,4,tonka bean,25.0,12
+Fordive,base,5,sandalwood,17.0,12
+Fordive,base,6,praline,17.0,12
+Fordive,base,7,vanilla,17.0,12
+Fordive,base,8,caramel,8.0,12
+Fordive,base,9,cedarwood,8.0,12
+Fordive,base,10,floral (generic),8.0,12
+Fordive,base,11,gardenia,8.0,12
+Fordive,base,12,guaiac wood,8.0,12
+Fordive,base,13,geranium,8.0,12
+Fordive,base,14,patchouli,8.0,12
+Fordive,base,15,oak,8.0,12
+Aoera,top,1,blackcurrant,23.0,13
+Aoera,top,2,raspberry,23.0,13
+Aoera,top,3,lemon,15.0,13
+Aoera,top,4,apple,15.0,13
+Aoera,top,5,orange,15.0,13
+Aoera,top,6,peach,15.0,13
+Aoera,top,7,strawberry,15.0,13
+Aoera,top,8,bergamot,8.0,13
+Aoera,top,9,banana,8.0,13
+Aoera,top,10,basil,8.0,13
+Aoera,top,11,amber,8.0,13
+Aoera,top,12,almond,8.0,13
+Aoera,top,13,coconut,8.0,13
+Aoera,top,14,cherry,8.0,13
+Aoera,top,15,cedarwood,8.0,13
+Aoera,mid,1,jasmine,38.0,13
+Aoera,mid,2,rose,31.0,13
+Aoera,mid,3,iris,15.0,13
+Aoera,mid,4,floral (generic),15.0,13
+Aoera,mid,5,ylang-ylang,15.0,13
+Aoera,mid,6,coconut,15.0,13
+Aoera,mid,7,freesia,8.0,13
+Aoera,mid,8,figolide,8.0,13
+Aoera,mid,9,caramel,8.0,13
+Aoera,mid,10,anise,8.0,13
+Aoera,mid,11,gardenia,8.0,13
+Aoera,mid,12,heliotrope,8.0,13
+Aoera,mid,13,leather,8.0,13
+Aoera,mid,14,lily of the valley,8.0,13
+Aoera,mid,15,oakmoss,8.0,13
+Aoera,base,1,vanilla,77.0,13
+Aoera,base,2,musk,69.0,13
+Aoera,base,3,amber,31.0,13
+Aoera,base,4,cedarwood,31.0,13
+Aoera,base,5,patchouli,23.0,13
+Aoera,base,6,sandalwood,23.0,13
+Aoera,base,7,milk/cream,15.0,13
+Aoera,base,8,driftwood,8.0,13
+Aoera,base,9,ambrox,8.0,13
+Aoera,base,10,oakmoss,8.0,13
+Aoera,base,11,incense,8.0,13
+Aoera,base,12,caramel,8.0,13
+Aoera,base,13,praline,8.0,13
+Aoera,base,14,sugar,8.0,13
+Aoera,base,15,tonka bean,8.0,13
+Timteng,top,1,bergamot,72.0,18
+Timteng,top,2,apple,33.0,18
+Timteng,top,3,blackcurrant,22.0,18
+Timteng,top,4,cinnamon,17.0,18
+Timteng,top,5,mint,17.0,18
+Timteng,top,6,mandarin,17.0,18
+Timteng,top,7,grapefruit,17.0,18
+Timteng,top,8,lavender,11.0,18
+Timteng,top,9,aldehydes,11.0,18
+Timteng,top,10,pink pepper,11.0,18
+Timteng,top,11,lemon,11.0,18
+Timteng,top,12,cardamom,11.0,18
+Timteng,top,13,ginger,11.0,18
+Timteng,top,14,citron,6.0,18
+Timteng,top,15,citrus,6.0,18
+Timteng,mid,1,cedarwood,28.0,18
+Timteng,mid,2,orange blossom,28.0,18
+Timteng,mid,3,lavender,22.0,18
+Timteng,mid,4,apple,22.0,18
+Timteng,mid,5,rose,11.0,18
+Timteng,mid,6,oakmoss,11.0,18
+Timteng,mid,7,cinnamon,11.0,18
+Timteng,mid,8,green,11.0,18
+Timteng,mid,9,vanilla,11.0,18
+Timteng,mid,10,sage,11.0,18
+Timteng,mid,11,toffee,11.0,18
+Timteng,mid,12,caramel,6.0,18
+Timteng,mid,13,berries,6.0,18
+Timteng,mid,14,amber,6.0,18
+Timteng,mid,15,basil,6.0,18
+Timteng,base,1,musk,56.0,18
+Timteng,base,2,amber,28.0,18
+Timteng,base,3,vanilla,28.0,18
+Timteng,base,4,tonka bean,28.0,18
+Timteng,base,5,patchouli,22.0,18
+Timteng,base,6,ambergris,22.0,18
+Timteng,base,7,ambroxan (sintetis),22.0,18
+Timteng,base,8,vetiver,11.0,18
+Timteng,base,9,cedarwood,11.0,18
+Timteng,base,10,oakmoss,11.0,18
+Timteng,base,11,sandalwood,11.0,18
+Timteng,base,12,caramel,11.0,18
+Timteng,base,13,woody (generic),11.0,18
+Timteng,base,14,fig,6.0,18
+Timteng,base,15,cognac,6.0,18
+== LOKAL ==,top,1,bergamot,29.0,231
+== LOKAL ==,top,2,mandarin,16.0,231
+== LOKAL ==,top,3,apple,15.0,231
+== LOKAL ==,top,4,pear,13.0,231
+== LOKAL ==,top,5,pink pepper,12.0,231
+== LOKAL ==,top,6,green,10.0,231
+== LOKAL ==,top,7,orange,10.0,231
+== LOKAL ==,top,8,lemon,9.0,231
+== LOKAL ==,top,9,grapefruit,9.0,231
+== LOKAL ==,top,10,rose,7.0,231
+== LOKAL ==,top,11,citrus,7.0,231
+== LOKAL ==,top,12,ginger,6.0,231
+== LOKAL ==,top,13,raspberry,6.0,231
+== LOKAL ==,top,14,tea/matcha,6.0,231
+== LOKAL ==,top,15,marine/aquatic/salt,6.0,231
+== LOKAL ==,mid,1,jasmine,30.0,231
+== LOKAL ==,mid,2,rose,25.0,231
+== LOKAL ==,mid,3,lily of the valley,17.0,231
+== LOKAL ==,mid,4,floral (generic),9.0,231
+== LOKAL ==,mid,5,iris,9.0,231
+== LOKAL ==,mid,6,violet,8.0,231
+== LOKAL ==,mid,7,lavender,8.0,231
+== LOKAL ==,mid,8,ylang-ylang,7.0,231
+== LOKAL ==,mid,9,tuberose,6.0,231
+== LOKAL ==,mid,10,peony,6.0,231
+== LOKAL ==,mid,11,orange blossom,6.0,231
+== LOKAL ==,mid,12,orange,6.0,231
+== LOKAL ==,mid,13,cedarwood,6.0,231
+== LOKAL ==,mid,14,tea/matcha,5.0,231
+== LOKAL ==,mid,15,caramel,5.0,231
+== LOKAL ==,base,1,musk,57.0,231
+== LOKAL ==,base,2,vanilla,35.0,231
+== LOKAL ==,base,3,amber,32.0,231
+== LOKAL ==,base,4,patchouli,24.0,231
+== LOKAL ==,base,5,cedarwood,21.0,231
+== LOKAL ==,base,6,sandalwood,19.0,231
+== LOKAL ==,base,7,tonka bean,16.0,231
+== LOKAL ==,base,8,vetiver,13.0,231
+== LOKAL ==,base,9,woody (generic),12.0,231
+== LOKAL ==,base,10,cashmeran,9.0,231
+== LOKAL ==,base,11,oakmoss,9.0,231
+== LOKAL ==,base,12,caramel,5.0,231
+== LOKAL ==,base,13,ambroxan (sintetis),4.0,231
+== LOKAL ==,base,14,leather,4.0,231
+== LOKAL ==,base,15,praline,3.0,231

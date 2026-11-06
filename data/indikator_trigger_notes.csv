@@ -1,0 +1,121 @@
+﻿core,outcome,layer,n_varian,n_pos,pct_di_note_ini,lift,p
+ginger,ind_bagus,top,16,12,75.0,1.93,0.003
+cardamom,ind_bagus,top,12,9,75.0,1.93,0.013
+aldehydes,ind_bagus,top,7,5,71.4,1.83,0.113
+violet,ind_bagus,top,6,4,66.7,1.71,0.212
+tea/matcha,ind_bagus,top,13,8,61.5,1.58,0.141
+fruity (generic),ind_bagus,top,10,6,60.0,1.54,0.194
+apple,ind_bagus,top,41,24,58.5,1.5,0.008
+rose,ind_bagus,top,16,8,50.0,1.28,0.429
+bergamot,ind_bagus,top,81,40,49.4,1.27,0.026
+mandarin,ind_bagus,top,39,19,48.7,1.25,0.211
+ginger,ind_bagus,mid,11,9,81.8,2.1,0.004
+amber,ind_bagus,mid,7,5,71.4,1.83,0.113
+orange blossom,ind_bagus,mid,18,12,66.7,1.71,0.021
+marine/aquatic/salt,ind_bagus,mid,12,8,66.7,1.71,0.066
+apple,ind_bagus,mid,8,5,62.5,1.6,0.268
+cinnamon,ind_bagus,mid,8,5,62.5,1.6,0.268
+incense,ind_bagus,mid,8,5,62.5,1.6,0.268
+neroli,ind_bagus,mid,8,5,62.5,1.6,0.268
+sage,ind_bagus,mid,8,5,62.5,1.6,0.268
+woody (generic),ind_bagus,mid,8,5,62.5,1.6,0.268
+ambroxan (sintetis),ind_bagus,base,14,12,85.7,2.2,0.0
+incense,ind_bagus,base,7,6,85.7,2.2,0.015
+ambergris,ind_bagus,base,8,6,75.0,1.93,0.059
+guaiac wood,ind_bagus,base,8,6,75.0,1.93,0.059
+benzoin,ind_bagus,base,6,4,66.7,1.71,0.212
+caramel,ind_bagus,base,14,9,64.3,1.65,0.053
+oakmoss,ind_bagus,base,22,13,59.1,1.52,0.065
+labdanum,ind_bagus,base,7,4,57.1,1.47,0.436
+amberwood,ind_bagus,base,9,5,55.6,1.43,0.317
+tonka bean,ind_bagus,base,41,20,48.8,1.25,0.165
+jasmine,ind_jelek,top,10,3,30.0,8.3,0.003
+cinnamon,ind_jelek,top,9,2,22.2,6.14,0.037
+peach,ind_jelek,top,9,2,22.2,6.14,0.037
+incense,ind_jelek,top,5,1,20.0,5.53,0.169
+tea/matcha,ind_jelek,top,13,2,15.4,4.26,0.074
+orange blossom,ind_jelek,top,7,1,14.3,3.96,0.23
+rose,ind_jelek,top,16,2,12.5,3.46,0.107
+fruity (generic),ind_jelek,top,10,1,10.0,2.77,0.313
+orange,ind_jelek,top,24,2,8.3,2.3,0.211
+cardamom,ind_jelek,top,12,1,8.3,2.3,0.364
+cashmeran,ind_jelek,mid,7,2,28.6,7.91,0.022
+tea/matcha,ind_jelek,mid,13,3,23.1,6.39,0.008
+milk/cream,ind_jelek,mid,10,2,20.0,5.53,0.045
+peach,ind_jelek,mid,5,1,20.0,5.53,0.169
+orange,ind_jelek,mid,13,2,15.4,4.26,0.074
+tuberose,ind_jelek,mid,14,2,14.3,3.96,0.084
+neroli,ind_jelek,mid,8,1,12.5,3.46,0.258
+caramel,ind_jelek,mid,13,1,7.7,2.13,0.388
+jasmine,ind_jelek,mid,69,4,5.8,1.6,0.267
+orange blossom,ind_jelek,mid,18,1,5.6,1.55,0.497
+milk/cream,ind_jelek,base,6,2,33.3,9.21,0.016
+iris,ind_jelek,base,5,1,20.0,5.53,0.169
+tea/matcha,ind_jelek,base,5,1,20.0,5.53,0.169
+amberwood,ind_jelek,base,9,1,11.1,3.07,0.286
+cedarwood,ind_jelek,base,50,5,10.0,2.77,0.018
+sandalwood,ind_jelek,base,45,3,6.7,1.85,0.209
+vetiver,ind_jelek,base,32,2,6.2,1.72,0.325
+vanilla,ind_jelek,base,85,4,4.7,1.3,0.496
+musk,ind_jelek,base,141,6,4.3,1.19,0.736
+amber,ind_jelek,base,80,2,2.5,0.69,0.723
+aldehydes,is_fav,top,7,5,71.4,2.61,0.018
+violet,is_fav,top,6,4,66.7,2.44,0.049
+ginger,is_fav,top,16,10,62.5,2.29,0.002
+cardamom,is_fav,top,12,7,58.3,2.13,0.02
+fruity (generic),is_fav,top,10,5,50.0,1.83,0.142
+lemon,is_fav,top,23,10,43.5,1.59,0.085
+bergamot,is_fav,top,81,34,42.0,1.54,0.0
+apple,is_fav,top,41,16,39.0,1.43,0.084
+marine/aquatic/salt,is_fav,top,13,5,38.5,1.41,0.35
+grapefruit,is_fav,top,24,9,37.5,1.37,0.237
+ginger,is_fav,mid,11,9,81.8,3.0,0.0
+sage,is_fav,mid,8,5,62.5,2.29,0.037
+orange blossom,is_fav,mid,18,11,61.1,2.24,0.002
+geranium,is_fav,mid,9,5,55.6,2.04,0.066
+apple,is_fav,mid,8,4,50.0,1.83,0.219
+cinnamon,is_fav,mid,8,4,50.0,1.83,0.219
+neroli,is_fav,mid,8,4,50.0,1.83,0.219
+woody (generic),is_fav,mid,8,4,50.0,1.83,0.219
+cedarwood,is_fav,mid,18,8,44.4,1.63,0.103
+coconut,is_fav,mid,9,4,44.4,1.63,0.262
+ambroxan (sintetis),is_fav,base,14,12,85.7,3.14,0.0
+guaiac wood,is_fav,base,8,5,62.5,2.29,0.037
+incense,is_fav,base,7,4,57.1,2.09,0.091
+oakmoss,is_fav,base,22,11,50.0,1.83,0.022
+ambergris,is_fav,base,8,4,50.0,1.83,0.219
+amberwood,is_fav,base,9,4,44.4,1.63,0.262
+caramel,is_fav,base,14,6,42.9,1.57,0.217
+labdanum,is_fav,base,7,3,42.9,1.57,0.395
+tonka bean,is_fav,base,41,17,41.5,1.52,0.034
+cedarwood,is_fav,base,50,18,36.0,1.32,0.155
+vanilla,is_top10000,top,8,8,100.0,2.09,0.002
+marine/aquatic/salt,is_top10000,top,13,8,61.5,1.29,0.396
+orange blossom,is_top10000,top,7,4,57.1,1.19,0.712
+saffron,is_top10000,top,7,4,57.1,1.19,0.712
+rose,is_top10000,top,16,9,56.2,1.18,0.607
+green,is_top10000,top,24,13,54.2,1.13,0.528
+grapefruit,is_top10000,top,24,12,50.0,1.05,0.833
+fruity (generic),is_top10000,top,10,5,50.0,1.05,1.0
+lychee,is_top10000,top,6,3,50.0,1.05,1.0
+violet,is_top10000,top,6,3,50.0,1.05,1.0
+marine/aquatic/salt,is_top10000,mid,12,10,83.3,1.74,0.016
+vanilla,is_top10000,mid,13,10,76.9,1.61,0.044
+neroli,is_top10000,mid,8,6,75.0,1.57,0.157
+freesia,is_top10000,mid,9,6,66.7,1.4,0.317
+chocolate/cacao,is_top10000,mid,6,4,66.7,1.4,0.43
+violet,is_top10000,mid,19,12,63.2,1.32,0.232
+sandalwood,is_top10000,mid,8,5,62.5,1.31,0.485
+woody (generic),is_top10000,mid,8,5,62.5,1.31,0.485
+orange blossom,is_top10000,mid,18,11,61.1,1.28,0.328
+iris,is_top10000,mid,20,12,60.0,1.26,0.351
+praline,is_top10000,base,9,7,77.8,1.63,0.091
+cashmeran,is_top10000,base,21,14,66.7,1.4,0.108
+caramel,is_top10000,base,14,9,64.3,1.35,0.273
+tonka bean,is_top10000,base,41,24,58.5,1.22,0.171
+amber,is_top10000,base,80,43,53.8,1.13,0.222
+ambrette,is_top10000,base,6,3,50.0,1.05,1.0
+patchouli,is_top10000,base,60,29,48.3,1.01,1.0
+cedarwood,is_top10000,base,50,24,48.0,1.0,1.0
+vanilla,is_top10000,base,85,40,47.1,0.99,0.894
+sandalwood,is_top10000,base,45,21,46.7,0.98,1.0

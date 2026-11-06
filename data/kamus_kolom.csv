@@ -1,0 +1,48 @@
+﻿kolom,arti
+variant_id,ID unik varian = brand | nama varian
+kelompok,"kelompok analisis: brand lokal masing-masing, semua brand Timteng digabung jadi 'Timteng'"
+origin,Lokal atau Timteng (dari kolom from)
+conc_short,EDP atau Extrait
+price_min / price_max / price_mid,harga termurah / termahal / titik tengah rentang (Rp). Rentang mencakup semua ukuran varian
+sizes / size_max / n_sizes,"daftar ukuran (ml), ukuran terbesar, jumlah ukuran"
+sold_raw,angka terjual seperti tertampil di Shopee (mis. 10000+)
+sold_lb,"BATAS BAWAH terjual (angka tertampil). Angka asli bisa lebih tinggi, terutama 10000+"
+sold_est,estimasi terjual: titik tengah bucket 1000-9000; 10000+ = 10000 kecuali TOP_BUCKET_ASSUMED diisi
+sold_kind,exact / plus / plus_open (10000+) / tidak tersedia
+sold_bucket,"bucket tertampil: <1000, 1000+ ... 10000+"
+rev_floor,revenue kotor batas bawah = sold_lb x price_mid (Rp). BUKAN untung
+rev_floor_lo / rev_floor_hi,revenue floor bila semua terjual di ukuran termurah / termahal
+rev_est,revenue dengan sold_est
+status_label,status gabungan: stock / sold out / no restock / fav / limited / collab
+is_sold_out,tulisan 'sold' di data = stok habis (lawan 'stock')
+ind_score / indikator,"skor status dari STATUS_WEIGHTS; BAGUS (>=2), cukup bagus (0.5-2), netral (0), JELEK (<0)"
+ind_bagus / ind_jelek,BAGUS atau cukup bagus / JELEK
+dupe_clean,"parfum acuan setelah dibersihkan, dipisah ' + '"
+dupe_type,single / blend (perpaduan >=2 parfum) / parfum + keterangan / original creation / deskripsi saja
+is_dupe / is_original_creation,punya >=1 parfum acuan / tertulis original creation
+original_full / line_full,nama baku parfum acuan / digabung flanker (mis. Sauvage + Sauvage EDP)
+mapping_conf,"high / medium / low: keyakinan pemetaan nama (medium/low = tebakan, cek di cek_mapping_dupe.csv)"
+n_varian,jumlah varian yang mengacu ke original
+n_kelompok,jumlah kelompok (brand) berbeda yang mengacu ke original
+sold_lb_w,total sold_lb tertimbang (perpaduan dibagi rata)
+rev_floor_miliar,revenue floor dalam Rp miliar (batas bawah)
+n_10000plus,jumlah varian di bucket 10000+
+skor_status,rata-rata ind_score varian pendupe
+konsensus_aroma,rata-rata kemiripan notes antar produk dupe (0-1); tinggi = profil aroma seragam
+skor_populer,"skor 0-100 gabungan: kelompok, varian, sold, kekuatan, status, konsensus (bobot WPOP)"
+rank_frekuensi / rank_sold / rank_status / rank_komposit,peringkat menurut jumlah pendupe / penjualan / status / skor_populer (1 = teratas)
+kuadran,RAMAI & CEPAT / RAMAI tapi biasa / SEPI tapi CEPAT (peluang) / sepi & biasa (CEPAT = kecepatan jual minimal median pendupe >= median semua original)
+release_date / release_dt / release_year,tanggal rilis asli (teks) / tanggal terbaca / tahun
+age_months,umur produk (bulan) sampai SNAPSHOT_DATE; kosong bila tanggal tidak valid
+v_lb,kecepatan jual MINIMAL = sold_lb / age_months (unit per bulan). Produk lama di bucket 10000+ diremehkan
+is_fast / speed_class,v_lb >= median (kuantil FAST_QUANTILE) / kelas lambat-sedang-cepat-sangat cepat
+era,"kohort tahun rilis: 2018-2021 digabung, lalu per tahun"
+date_conf / date_uncertain,keyakinan tanggal dari release_note: tanpa catatan / sumber dicatat / perlu cek
+ratio_cepat / ratio_fav / ratio_bagus,hasil aktual / yang diharapkan untuk era rilisnya (>1 = lebih berhasil dari harapan untuk umurnya); p-nya pendekatan Poisson
+lift_biasa_*,lift tanpa penyesuaian umur (bandingkan dengan ratio_*)
+trend (original),sedang naik / lama-mereda / campur / (sampel kecil) menurut proporsi pendupe yang rilis <=24 bln
+n_baru_12 / n_fast / tahun_median,jumlah pendupe rilis <=12 bln / pendupe berstatus cepat / tahun rilis median pendupe
+tercepat,pendupe dengan kecepatan jual minimal tertinggi
+lift_*,>1 = lebih sering dari rata-rata semua varian; *_lift pada original memakai penyusutan untuk sampel kecil
+p_*,"p-value uji Fisher (petunjuk saja, banyak uji sekaligus)"
+notes (core),"inti note setelah dinormalkan, mis. 'vanilla' mencakup bourbon vanilla, madagascar vanilla"

@@ -1,0 +1,20 @@
+﻿id_parfume,kelompok,variant,release_date,date_conf,date_future,release_note
+MYK-002,Mykonos,Dreamscape,Agustus 2025,perlu cek,False,Tidak muncul di daftar Parfumo yang berhasil dibaca
+MYK-007,Mykonos,Crimson,Januari 2026,perlu cek,False,Tidak ditemukan di Parfumo
+MYK-018,Mykonos,Constantine,Juli 2026,perlu cek,False,"Ada di Parfumo, tahun tidak terbaca"
+MYK-027,Mykonos,Moroccan Vanilla,Desember 2021,perlu cek,False,"Ada di Parfumo, tahun unknown"
+MYK-046,Mykonos,Black Opera,Mei 2021,perlu cek,False,"Ada di Parfumo, tahun unknown"
+MYK-048,Mykonos,California Signature,Mei 2024,perlu cek,False,"Diasumsikan Parfumo: California (2021); ada juga Mykonos x Niky Cu - California (2023), cek manual"
+MYK-051,Mykonos,Rouge,Mei 2023,perlu cek,False,"Parfumo: Rouge. Halaman detail sempat menampilkan 2019 (data campur), cek manual"
+MYK-057,Mykonos,Memoir Of Meri,Juli 2025,perlu cek,False,Tidak ditemukan di Parfumo
+MYK-060,Mykonos,Don,Juli 2025,perlu cek,False,Tidak ditemukan di Parfumo
+MYK-061,Mykonos,Marbella,Juli 2026,perlu cek,False,"Typo di CSV, dianggap Marbella"
+MYK-063,Mykonos,Verve,Desember 2021,perlu cek,False,"Ada di Parfumo, tahun unknown"
+VLX-069,Velixir,Morpheus,Maret 2026,perlu cek,False,"Typo di CSV, dianggap Morpheus"
+SAF-103,SAFF & Co.,MECHLINE,Oktober 2026,perlu cek,False,Tidak ada di daftar Parfumo (29 varian)
+SAF-104,SAFF & Co.,ALENCINE,Oktober 2026,perlu cek,False,Tidak ada di daftar Parfumo (29 varian)
+PRJ-113,Project 1945,Trails of Bromo,Juni 2026,perlu cek,False,Tidak ada di daftar Parfumo (14 varian)
+PRJ-114,Project 1945,Sunrise in Mentawai,September 2023.,perlu cek,False,Tidak ada di daftar Parfumo
+PRJ-117,Project 1945,Sunset in Sumba 2.0,Desember 2021,perlu cek,False,"Parfumo: Sunset in Sumba (2021). Versi 2.0 kemungkinan lebih baru, cek manual"
+LYR-151,LAYR,Forbidden Garden,Maret 2023,perlu cek,False,"BPOM terdaftar 2023, bukan tahun rilis pasti"
+BSP-225,BSP,Blue Point For Him,November 2021.,perlu cek,False,Parfumo hanya punya Blue Point (tahun unknown). Blue Point For Her = 2021

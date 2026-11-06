@@ -1,0 +1,19 @@
+﻿langkah,jumlah,contoh,aksi
+Baris mentah -> baris berisi,250 -> 250,,baris tanpa id_parfume dibuang
+Teks rusak 'rb'->'000' diperbaiki,17,"Mango, Italian Lemon, and Rhuba000 -> Mango, Italian Lemon, and Rhubarb | Kiwi, Rhuba000, Pink Pepper -> Kiwi, Rhubarb, Pink Pepper | Raspberry So000et, Pink Pepper -> Raspberry Sorbet, Pink Pepper | Ginge000read, Cardamom, Cinnamon and Coffe -> Gingerbread, Cardamom, Cinnamon and Coffe | Litchi, Rhuba000, Grapefruit -> Litchi, Rhubarb, Grapefruit",ganti 000 yang menempel di huruf menjadi 'rb'
+Nama brand diperbaiki,0,Project 1946->Project 1945,lihat BRAND_FIX (ubah kalau tidak setuju)
+Asal (from) kosong diisi dari brand yang sama,0,,diisi mengikuti asal brand tersebut (ditandai origin_inferred)
+Harga min/max dihitung ulang dari kolom price (kolom price_min/price_max di CSV berbeda),6,MYK-001: 10900-459000 (CSV: 10900-459000) | MYK-002: 249000-45900 (CSV: 45900-249000) | MYK-006: 299000-49900 (CSV: 49900-299000) | MYK-013: 249000-45900 (CSV: 45900-249000) | MYK-014: 299000-49900 (CSV: 49900-299000) | MYK-033: 299000-49900 (CSV: 49900-299000),"pada baris dengan angka nol hilang, min/max di CSV tertukar; dipakai hasil perbaikan di kolom price_min/price_max notebook"
+Harga diperbaiki otomatis / manual,6,"MYK-001: min 10900 terlalu kecil, jadi 109000 | MYK-002: maks 45900 < min 249000: angka nol hilang, jadi 459000 | MYK-006: maks 49900 < min 299000: angka nol hilang, jadi 499000 | MYK-013: maks 45900 < min 249000: angka nol hilang, jadi 459000 | MYK-014: maks 49900 < min 299000: angka nol hilang, jadi 499000 | MYK-033: maks 49900 < min 299000: angka nol hilang, jadi 499000",periksa tabel di bawah; ubah lewat PRICE_OVERRIDES kalau salah
+"Ukuran tidak umum (info, tidak diubah)",3,"ukuran: [37, 70, 90]",dibiarkan; cek jika ada salah ketik
+Konsentrasi diseragamkan,16,"Extrait de Parfume, Eu de Parfum, Eau de Parfume, EDT, ...",standardisasi nama
+EDT dikeluarkan dari analisis,1,BSP The Violet,EXCLUDE_EDT=True
+Cek sold_lb vs kolom sold_shopee_min dari CSV,0,0 = sama persis,pembacaan angka tertampil sudah konsisten dengan kolom buatanmu
+Penjualan: format '+' dibaca sebagai batas bawah,211,"mis. 10000+ -> sold_lb=10000, tanpa batas atas",sold_lb dipakai untuk revenue floor
+Penjualan tidak tersedia (no availale),9,"Mykonos Rouge, Mykonos Sansa, Mykonos Tea Poetry, Mykonos Zora, Mykonos Down To Earth, Mykonos Memoir Of Meri, Mykonos Chai Crema Latte, Mykonos When In Paris, Mykonos Don",dibiarkan kosong (tidak ditebak)
+Status dinormalkan menjadi tanda,249,"stock/Stock, fav/Fav, rectock->restock, colllab->collab, 'sold-no restock' dipecah",lihat kolom is_*
+Status kosong,1,SAFF & Co. MALEALI,dibiarkan '(tanpa status)'
+Format tanggal rilis diseragamkan,48,"mis. 'September 2025.' (titik), ' Maret 2025' (spasi), 'Nov-25'",dibaca ke tanggal; tanpa hari = tanggal 15
+Tanggal rilis gagal dibaca,0,,dikosongkan
+Tanggal rilis SETELAH tanggal ambil data (tidak valid),0,,"umur dikosongkan; koreksi lewat DATE_FIXES, mis. {'MYK-062': 'Juli 2026'}"
+Tanggal rilis ditandai 'perlu cek' dari release_note,19,"mis. 'tidak ditemukan di Parfumo', 'cek manual', 'tahun unknown'",dipakai apa adanya; EXCLUDE_UNCERTAIN_DATES=True untuk membuangnya dari analisis umur

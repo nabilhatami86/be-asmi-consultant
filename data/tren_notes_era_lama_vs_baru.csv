@@ -1,0 +1,74 @@
+﻿layer,core,n_total,pct_lama,pct_baru,selisih,tren
+top,apple,41,19.4,14.4,-5.0,stabil
+top,bergamot,81,27.2,36.3,9.1,NAIK
+top,blackcurrant,17,6.8,6.8,0.1,stabil
+top,cardamom,12,3.9,5.5,1.6,stabil
+top,cinnamon,9,3.9,3.4,-0.5,stabil
+top,citrus,17,5.8,7.5,1.7,stabil
+top,fruity (generic),10,3.9,4.1,0.2,stabil
+top,ginger,16,1.9,9.6,7.6,stabil
+top,grapefruit,24,11.7,8.2,-3.4,stabil
+top,green,24,9.7,9.6,-0.1,stabil
+top,jasmine,10,3.9,4.1,0.2,stabil
+top,lavender,11,3.9,4.8,0.9,stabil
+top,lemon,23,6.8,11.0,4.2,stabil
+top,mandarin,39,12.6,17.8,5.2,stabil
+top,marine/aquatic/salt,13,7.8,3.4,-4.3,stabil
+top,mint,8,1.9,4.1,2.2,stabil
+top,orange,24,6.8,11.6,4.8,stabil
+top,peach,9,3.9,3.4,-0.5,stabil
+top,pear,31,14.6,11.0,-3.6,stabil
+top,pink pepper,29,16.5,8.2,-8.3,TURUN
+top,raspberry,14,7.8,4.1,-3.7,stabil
+top,rose,16,7.8,5.5,-2.3,stabil
+top,tea/matcha,13,4.9,5.5,0.6,stabil
+top,vanilla,8,6.8,0.7,-6.1,stabil
+mid,apple,8,6.8,0.7,-6.1,stabil
+mid,caramel,13,3.9,6.2,2.3,stabil
+mid,cedarwood,18,9.7,5.5,-4.2,stabil
+mid,cinnamon,8,3.9,2.7,-1.1,stabil
+mid,coconut,9,2.9,4.1,1.2,stabil
+mid,floral (generic),21,9.7,7.5,-2.2,stabil
+mid,freesia,9,6.8,1.4,-5.4,stabil
+mid,geranium,9,2.9,4.1,1.2,stabil
+mid,ginger,11,0.0,7.5,7.5,stabil
+mid,green,8,1.0,4.8,3.8,stabil
+mid,incense,8,1.9,4.1,2.2,stabil
+mid,iris,20,10.7,6.2,-4.5,stabil
+mid,jasmine,69,31.1,25.3,-5.7,stabil
+mid,lavender,22,8.7,8.9,0.2,stabil
+mid,lily of the valley,40,21.4,12.3,-9.0,TURUN
+mid,marine/aquatic/salt,12,3.9,5.5,1.6,stabil
+mid,milk/cream,10,2.9,4.8,1.9,stabil
+mid,neroli,8,2.9,3.4,0.5,stabil
+mid,nutmeg,9,4.9,2.7,-2.1,stabil
+mid,orange,13,6.8,4.1,-2.7,stabil
+mid,orange blossom,18,7.8,6.8,-0.9,stabil
+mid,peony,14,6.8,4.8,-2.0,stabil
+mid,rose,60,26.2,22.6,-3.6,stabil
+mid,sage,8,5.8,1.4,-4.5,stabil
+mid,sandalwood,8,4.9,2.1,-2.8,stabil
+mid,tea/matcha,13,3.9,6.2,2.3,stabil
+mid,tuberose,14,6.8,4.8,-2.0,stabil
+mid,vanilla,13,4.9,5.5,0.6,stabil
+mid,violet,19,10.7,5.5,-5.2,stabil
+mid,woody (generic),8,1.0,4.8,3.8,stabil
+mid,ylang-ylang,17,8.7,5.5,-3.3,stabil
+base,amber,80,37.9,28.1,-9.8,TURUN
+base,ambergris,8,3.9,2.7,-1.1,stabil
+base,amberwood,9,1.9,4.8,2.9,stabil
+base,ambroxan (sintetis),14,1.9,8.2,6.3,stabil
+base,caramel,14,6.8,4.8,-2.0,stabil
+base,cashmeran,21,8.7,8.2,-0.5,stabil
+base,cedarwood,50,21.4,19.2,-2.2,stabil
+base,guaiac wood,8,1.0,4.8,3.8,stabil
+base,leather,9,5.8,2.1,-3.8,stabil
+base,musk,141,58.3,55.5,-2.8,stabil
+base,oakmoss,22,8.7,8.9,0.2,stabil
+base,patchouli,60,25.2,23.3,-2.0,stabil
+base,praline,9,4.9,2.7,-2.1,stabil
+base,sandalwood,45,24.3,13.7,-10.6,TURUN
+base,tonka bean,41,20.4,13.7,-6.7,stabil
+base,vanilla,85,40.8,29.5,-11.3,TURUN
+base,vetiver,32,11.7,13.7,2.0,stabil
+base,woody (generic),30,6.8,15.8,9.0,NAIK

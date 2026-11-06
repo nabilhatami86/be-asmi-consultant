@@ -1,0 +1,417 @@
+﻿tipe,fitur,hasil,n_varian,n_positif,diharapkan_se_tahun,lift_kasar,lift_adj,selisih,OR_MH,p
+original,Creed Aventus,top10000,6,2,2.9,0.67,0.69,0.02,0.47,0.417
+original,Creed Aventus,bagus,6,4,2.6,1.71,1.55,-0.17,2.75,0.238
+original,Creed Aventus,fav,6,4,1.9,2.44,2.13,-0.31,4.37,0.056
+original,Creed Virgin Island Water,top10000,3,1,1.3,0.67,0.78,0.1,0.42,0.692
+original,Creed Virgin Island Water,bagus,3,3,1.5,2.57,1.98,-0.58,,0.083
+original,Creed Virgin Island Water,fav,3,3,1.2,3.66,2.6,-1.06,,0.027
+original,Dolce & Gabbana Light Blue,top10000,4,3,2.5,1.51,1.22,-0.3,1.89,0.57
+original,Dolce & Gabbana Light Blue,bagus,4,2,1.4,1.28,1.4,0.11,1.95,0.544
+original,Dolce & Gabbana Light Blue,fav,4,2,1.0,1.83,2.0,0.17,3.79,0.234
+original,Emporio Armani Stronger With You,top10000,3,1,1.8,0.67,0.55,-0.13,0.4,0.303
+original,Emporio Armani Stronger With You,bagus,3,2,0.9,1.71,2.11,0.4,4.16,0.188
+original,Emporio Armani Stronger With You,fav,3,1,0.7,1.22,1.51,0.29,1.64,0.63
+original,Ex Nihilo Blue Talisman,top10000,3,1,1.4,0.67,0.71,0.04,0.58,0.613
+original,Ex Nihilo Blue Talisman,bagus,3,3,1.3,2.57,2.3,-0.27,,0.047
+original,Ex Nihilo Blue Talisman,fav,3,3,1.0,3.66,3.13,-0.53,,0.011
+original,Giardini di Toscana Bianco Latte,top10000,3,2,1.0,1.34,2.07,0.72,4.1,0.195
+original,Giardini di Toscana Bianco Latte,bagus,3,1,1.3,0.86,0.8,-0.06,0.66,0.765
+original,Giardini di Toscana Bianco Latte,fav,3,0,0.8,0.0,0.0,0.0,0.0,0.303
+original,Giorgio Armani Acqua di Gio,top10000,3,1,2.1,0.67,0.47,-0.2,0.21,0.156
+original,Giorgio Armani Acqua di Gio,bagus,3,1,1.0,0.86,1.02,0.17,1.04,0.979
+original,Giorgio Armani Acqua di Gio,fav,3,0,0.6,0.0,0.0,0.0,0.0,0.375
+original,Giorgio Armani My Way,top10000,3,2,1.6,1.34,1.26,-0.09,1.93,0.609
+original,Giorgio Armani My Way,bagus,3,1,1.1,0.86,0.93,0.07,0.89,0.927
+original,Giorgio Armani My Way,fav,3,0,0.7,0.0,0.0,0.0,0.0,0.324
+original,Glossier You,bagus,3,0,1.0,0.0,0.0,0.0,0.0,0.2
+original,Glossier You,fav,3,0,0.6,0.0,0.0,0.0,0.0,0.351
+original,Jean Paul Gaultier Ultra Male,top10000,3,1,1.4,0.67,0.72,0.04,0.62,0.602
+original,Jean Paul Gaultier Ultra Male,bagus,3,2,1.4,1.71,1.47,-0.24,2.35,0.453
+original,Jean Paul Gaultier Ultra Male,fav,3,2,1.0,2.44,2.04,-0.4,3.42,0.2
+original,Louis Vuitton Afternoon Swim,top10000,3,0,0.8,0.0,0.0,0.0,0.0,0.308
+original,Louis Vuitton Afternoon Swim,bagus,3,3,1.6,2.57,1.93,-0.64,,0.089
+original,Louis Vuitton Afternoon Swim,fav,3,3,1.1,3.66,2.74,-0.92,,0.02
+original,Louis Vuitton Symphony,top10000,4,2,1.2,1.01,1.68,0.67,2.24,0.361
+original,Louis Vuitton Symphony,bagus,4,3,1.9,1.93,1.55,-0.37,3.22,0.276
+original,Louis Vuitton Symphony,fav,4,3,1.4,2.75,2.12,-0.63,5.84,0.093
+original,Maison Francis Kurkdjian Baccarat Rouge 540,top10000,5,3,3.2,1.21,0.95,-0.26,0.79,0.862
+original,Maison Francis Kurkdjian Baccarat Rouge 540,bagus,5,3,2.0,1.54,1.48,-0.06,2.31,0.365
+original,Maison Francis Kurkdjian Baccarat Rouge 540,fav,5,1,1.6,0.73,0.64,-0.09,0.48,0.571
+original,Nishane Hacivat,top10000,3,1,1.9,0.67,0.54,-0.14,0.43,0.266
+original,Nishane Hacivat,bagus,3,2,1.2,1.71,1.6,-0.11,2.59,0.377
+original,Nishane Hacivat,fav,3,1,0.9,1.22,1.12,-0.1,1.16,0.886
+original,Paco Rabanne 1 Million,top10000,3,3,2.0,2.02,1.48,-0.53,,0.193
+original,Paco Rabanne 1 Million,bagus,3,2,1.0,1.71,1.92,0.2,4.28,0.239
+original,Paco Rabanne 1 Million,fav,3,2,0.7,2.44,2.71,0.27,8.58,0.084
+original,Parfums de Marly Althair,top10000,4,2,1.6,1.01,1.21,0.2,1.37,0.712
+original,Parfums de Marly Althair,bagus,4,1,1.5,0.64,0.67,0.03,0.56,0.598
+original,Parfums de Marly Althair,fav,4,1,1.0,0.92,0.99,0.07,0.98,0.988
+original,Parfums de Marly Delina,top10000,4,3,2.0,1.51,1.47,-0.04,3.41,0.312
+original,Parfums de Marly Delina,bagus,4,1,1.5,0.64,0.65,0.01,0.52,0.573
+original,Parfums de Marly Delina,fav,4,1,1.2,0.92,0.81,-0.11,0.73,0.796
+original,Tiziana Terenzi Kirke,top10000,3,2,1.6,1.34,1.26,-0.09,1.93,0.609
+original,Tiziana Terenzi Kirke,bagus,4,0,1.5,0.0,0.0,0.0,0.0,0.124
+original,Tiziana Terenzi Kirke,fav,4,0,1.0,0.0,0.0,0.0,0.0,0.246
+original,Yves Saint Laurent Black Opium,top10000,6,5,3.5,1.68,1.43,-0.25,4.4,0.191
+original,Yves Saint Laurent Black Opium,bagus,6,1,2.1,0.43,0.48,0.05,0.32,0.337
+original,Yves Saint Laurent Black Opium,fav,6,1,1.5,0.61,0.68,0.07,0.55,0.643
+original,Yves Saint Laurent MYSLF,top10000,5,3,1.9,1.21,1.58,0.37,2.87,0.29
+original,Yves Saint Laurent MYSLF,bagus,5,4,2.0,2.05,1.98,-0.07,4.96,0.063
+original,Yves Saint Laurent MYSLF,fav,5,4,1.4,2.93,2.9,-0.03,8.57,0.007
+original,Yves Saint Laurent Y,top10000,4,3,2.2,1.51,1.37,-0.14,3.26,0.388
+original,Yves Saint Laurent Y,bagus,4,4,1.5,2.57,2.75,0.18,,0.007
+original,Yves Saint Laurent Y,fav,4,4,1.1,3.66,3.74,0.08,,0.001
+note top,aldehydes,top10000,7,3,2.9,0.86,1.02,0.16,1.06,0.958
+note top,aldehydes,bagus,7,5,3.2,1.83,1.54,-0.3,3.2,0.172
+note top,aldehydes,fav,7,5,2.3,2.62,2.19,-0.43,6.26,0.024
+note top,apple,top10000,40,19,20.8,0.96,0.91,-0.04,0.78,0.504
+note top,apple,bagus,41,24,16.1,1.5,1.49,-0.01,2.66,0.005
+note top,apple,fav,41,16,11.3,1.43,1.41,-0.02,1.94,0.07
+note top,bergamot,top10000,80,39,37.4,0.98,1.04,0.06,1.15,0.638
+note top,bergamot,bagus,81,40,33.5,1.27,1.19,-0.07,1.66,0.066
+note top,bergamot,fav,81,34,24.0,1.54,1.42,-0.12,2.48,0.002
+note top,blackcurrant,top10000,17,5,8.8,0.59,0.57,-0.02,0.34,0.04
+note top,blackcurrant,bagus,17,7,6.8,1.06,1.03,-0.02,1.06,0.91
+note top,blackcurrant,fav,17,6,4.9,1.29,1.23,-0.06,1.4,0.53
+note top,cardamom,top10000,10,3,4.8,0.61,0.62,0.02,0.48,0.201
+note top,cardamom,bagus,12,9,4.7,1.93,1.93,0.01,5.19,0.008
+note top,cardamom,fav,12,7,3.2,2.14,2.21,0.08,4.24,0.009
+note top,cinnamon,top10000,7,2,3.7,0.58,0.53,-0.04,0.34,0.159
+note top,cinnamon,bagus,9,2,3.0,0.57,0.66,0.09,0.56,0.45
+note top,cinnamon,fav,9,2,2.0,0.81,0.98,0.17,0.97,0.972
+note top,citrus,top10000,17,6,8.7,0.71,0.69,-0.03,0.46,0.135
+note top,citrus,bagus,17,5,6.9,0.76,0.73,-0.03,0.59,0.335
+note top,citrus,fav,17,4,5.1,0.86,0.79,-0.08,0.69,0.543
+note top,fruity (generic),top10000,9,5,4.2,1.12,1.19,0.07,1.67,0.549
+note top,fruity (generic),bagus,10,6,4.3,1.54,1.4,-0.14,2.21,0.264
+note top,fruity (generic),fav,10,5,3.0,1.83,1.68,-0.15,2.76,0.151
+note top,ginger,top10000,15,7,5.3,0.94,1.33,0.39,1.73,0.308
+note top,ginger,bagus,16,12,7.0,1.93,1.71,-0.22,4.59,0.008
+note top,ginger,fav,16,10,4.9,2.29,2.05,-0.24,4.84,0.003
+note top,grapefruit,top10000,23,12,11.6,1.05,1.03,-0.02,1.08,0.853
+note top,grapefruit,bagus,24,11,9.3,1.18,1.19,0.01,1.39,0.432
+note top,grapefruit,fav,24,9,6.5,1.37,1.39,0.02,1.73,0.212
+note top,green,top10000,23,13,11.3,1.14,1.15,0.01,1.55,0.415
+note top,green,bagus,24,9,9.4,0.96,0.96,-0.0,0.93,0.868
+note top,green,fav,24,6,6.7,0.92,0.89,-0.02,0.83,0.725
+note top,jasmine,top10000,7,3,3.2,0.86,0.93,0.07,0.83,0.862
+note top,jasmine,bagus,10,3,3.6,0.77,0.84,0.07,0.75,0.702
+note top,jasmine,fav,10,0,2.2,0.0,0.0,0.0,0.0,0.077
+note top,lavender,top10000,11,3,5.6,0.55,0.53,-0.02,0.37,0.086
+note top,lavender,bagus,11,4,4.3,0.93,0.93,-0.0,0.88,0.848
+note top,lavender,fav,11,1,3.3,0.33,0.31,-0.03,0.22,0.121
+note top,lemon,top10000,22,10,10.4,0.92,0.96,0.05,0.92,0.85
+note top,lemon,bagus,23,10,9.2,1.12,1.09,-0.02,1.19,0.703
+note top,lemon,fav,23,10,6.5,1.59,1.55,-0.05,2.19,0.083
+note top,lychee,top10000,6,3,2.9,1.01,1.03,0.02,1.04,0.942
+note top,lychee,bagus,6,1,2.5,0.43,0.41,-0.02,0.29,0.218
+note top,lychee,fav,6,1,1.7,0.61,0.57,-0.04,0.47,0.494
+note top,mandarin,top10000,37,19,17.1,1.04,1.11,0.07,1.31,0.475
+note top,mandarin,bagus,39,19,15.7,1.25,1.21,-0.04,1.52,0.233
+note top,mandarin,fav,39,14,11.0,1.31,1.27,-0.05,1.54,0.245
+note top,marine/aquatic/salt,top10000,13,8,7.3,1.24,1.1,-0.14,1.37,0.65
+note top,marine/aquatic/salt,bagus,13,6,4.8,1.18,1.26,0.07,1.55,0.458
+note top,marine/aquatic/salt,fav,13,5,3.2,1.41,1.56,0.16,2.04,0.226
+note top,mint,top10000,8,3,3.7,0.76,0.82,0.06,0.73,0.607
+note top,mint,bagus,8,3,3.0,0.96,1.02,0.05,1.03,0.972
+note top,mint,fav,8,3,2.1,1.37,1.46,0.08,1.72,0.433
+note top,orange,top10000,23,9,10.3,0.79,0.88,0.09,0.73,0.542
+note top,orange,bagus,24,11,9.6,1.18,1.15,-0.03,1.32,0.529
+note top,orange,fav,24,8,6.8,1.22,1.18,-0.04,1.34,0.545
+note top,orange blossom,top10000,6,4,3.2,1.34,1.26,-0.09,2.23,0.466
+note top,orange blossom,bagus,7,2,2.6,0.73,0.77,0.04,0.65,0.635
+note top,orange blossom,fav,7,1,1.7,0.52,0.58,0.05,0.51,0.508
+note top,peach,top10000,8,2,4.2,0.5,0.48,-0.03,0.15,0.079
+note top,peach,bagus,9,1,3.5,0.29,0.28,-0.0,0.15,0.073
+note top,peach,fav,9,1,2.7,0.41,0.38,-0.03,0.27,0.21
+note top,pear,top10000,30,15,15.5,1.01,0.97,-0.04,0.9,0.821
+note top,pear,bagus,31,13,11.5,1.08,1.13,0.05,1.26,0.56
+note top,pear,fav,31,10,8.2,1.18,1.22,0.04,1.41,0.424
+note top,pink pepper,top10000,29,14,16.5,0.97,0.85,-0.12,0.6,0.277
+note top,pink pepper,bagus,29,8,10.6,0.71,0.76,0.05,0.63,0.28
+note top,pink pepper,fav,29,5,7.0,0.63,0.71,0.08,0.6,0.344
+note top,raspberry,top10000,14,5,7.7,0.72,0.65,-0.07,0.33,0.097
+note top,raspberry,bagus,14,5,5.6,0.92,0.9,-0.02,0.82,0.746
+note top,raspberry,fav,14,3,4.2,0.78,0.71,-0.07,0.62,0.461
+note top,rose,top10000,14,9,7.1,1.3,1.26,-0.03,2.19,0.261
+note top,rose,bagus,16,8,6.1,1.28,1.32,0.04,1.74,0.295
+note top,rose,fav,16,4,4.1,0.92,0.97,0.05,0.95,0.938
+note top,saffron,top10000,7,4,4.3,1.15,0.93,-0.22,0.79,0.809
+note top,saffron,bagus,7,3,2.6,1.1,1.17,0.07,1.35,0.73
+note top,saffron,fav,7,2,1.9,1.05,1.06,0.01,1.09,0.925
+note top,tea/matcha,top10000,11,5,4.9,0.92,1.01,0.1,1.03,0.968
+note top,tea/matcha,bagus,13,8,4.9,1.58,1.62,0.04,2.96,0.065
+note top,tea/matcha,fav,13,4,3.2,1.13,1.26,0.13,1.41,0.578
+note top,vanilla,top10000,8,8,5.5,2.02,1.46,-0.56,,0.039
+note top,vanilla,bagus,8,2,2.9,0.64,0.69,0.04,0.6,0.478
+note top,vanilla,fav,8,0,2.0,0.0,0.0,0.0,0.0,0.089
+note top,violet,top10000,6,3,3.6,1.01,0.83,-0.18,0.55,0.564
+note top,violet,bagus,6,4,2.0,1.71,1.96,0.25,5.66,0.077
+note top,violet,fav,6,4,1.4,2.44,2.88,0.44,13.4,0.008
+note mid,amber,top10000,7,3,3.7,0.86,0.82,-0.05,0.48,0.56
+note mid,amber,bagus,7,5,2.9,1.83,1.71,-0.12,3.44,0.104
+note mid,amber,fav,7,3,2.1,1.57,1.44,-0.13,1.73,0.437
+note mid,apple,top10000,8,2,5.0,0.5,0.4,-0.1,0.19,0.021
+note mid,apple,bagus,8,5,2.5,1.6,2.03,0.42,4.61,0.044
+note mid,apple,fav,8,4,1.5,1.83,2.71,0.88,5.25,0.017
+note mid,caramel,top10000,12,4,5.6,0.67,0.72,0.05,0.48,0.329
+note mid,caramel,bagus,13,4,4.7,0.79,0.85,0.06,0.79,0.673
+note mid,caramel,fav,13,1,3.3,0.28,0.3,0.02,0.26,0.121
+note mid,cashmeran,top10000,5,2,1.8,0.81,1.13,0.33,1.22,0.823
+note mid,cashmeran,bagus,7,4,2.7,1.47,1.46,-0.01,2.27,0.313
+note mid,cashmeran,fav,7,2,1.8,1.05,1.12,0.07,1.18,0.849
+note mid,cedarwood,top10000,18,10,9.3,1.12,1.08,-0.04,1.19,0.701
+note mid,cedarwood,bagus,18,8,6.8,1.14,1.18,0.04,1.4,0.526
+note mid,cedarwood,fav,18,8,4.5,1.63,1.77,0.14,2.9,0.044
+note mid,chocolate/cacao,top10000,6,4,3.3,1.34,1.22,-0.13,1.73,0.525
+note mid,chocolate/cacao,bagus,6,2,1.9,0.86,1.03,0.18,1.05,0.957
+note mid,chocolate/cacao,fav,6,0,1.3,0.0,0.0,0.0,0.0,0.183
+note mid,cinnamon,top10000,8,3,4.3,0.76,0.7,-0.05,0.46,0.327
+note mid,cinnamon,bagus,8,5,2.8,1.6,1.8,0.19,3.56,0.09
+note mid,cinnamon,fav,8,4,1.9,1.83,2.13,0.29,3.75,0.069
+note mid,coconut,top10000,9,2,4.0,0.45,0.5,0.05,0.24,0.135
+note mid,coconut,bagus,9,5,3.9,1.43,1.29,-0.13,1.78,0.429
+note mid,coconut,fav,9,4,2.7,1.63,1.46,-0.17,1.92,0.343
+note mid,floral (generic),top10000,20,10,10.8,1.01,0.92,-0.08,0.81,0.673
+note mid,floral (generic),bagus,21,7,8.3,0.86,0.85,-0.01,0.74,0.553
+note mid,floral (generic),fav,21,6,5.8,1.05,1.03,-0.02,1.05,0.929
+note mid,freesia,top10000,9,6,5.8,1.34,1.03,-0.32,1.1,0.904
+note mid,freesia,bagus,9,2,3.2,0.57,0.62,0.05,0.47,0.371
+note mid,freesia,fav,9,2,2.5,0.81,0.8,-0.02,0.71,0.685
+note mid,geranium,top10000,9,2,3.7,0.45,0.53,0.09,0.33,0.202
+note mid,geranium,bagus,9,5,3.5,1.43,1.41,-0.01,2.15,0.298
+note mid,geranium,fav,9,5,2.2,2.03,2.25,0.22,4.78,0.025
+note mid,ginger,top10000,11,5,3.5,0.92,1.42,0.51,2.04,0.302
+note mid,ginger,bagus,11,9,5.1,2.1,1.75,-0.35,5.56,0.013
+note mid,ginger,fav,11,9,3.8,3.0,2.34,-0.65,10.58,0.001
+note mid,green,top10000,8,1,3.2,0.25,0.32,0.06,0.21,0.097
+note mid,green,bagus,8,4,3.3,1.28,1.21,-0.07,1.48,0.607
+note mid,green,fav,8,3,2.2,1.37,1.35,-0.03,1.61,0.534
+note mid,incense,top10000,8,0,3.7,0.0,0.0,0.0,0.0,0.004
+note mid,incense,bagus,8,5,3.1,1.6,1.61,0.0,2.73,0.164
+note mid,incense,fav,8,1,2.1,0.46,0.48,0.02,0.41,0.376
+note mid,iris,top10000,20,12,10.3,1.21,1.16,-0.05,1.56,0.393
+note mid,iris,bagus,20,5,6.7,0.64,0.75,0.11,0.62,0.396
+note mid,iris,fav,20,3,4.2,0.55,0.71,0.17,0.63,0.478
+note mid,jasmine,top10000,65,30,33.2,0.93,0.9,-0.03,0.71,0.301
+note mid,jasmine,bagus,69,30,28.0,1.12,1.07,-0.04,1.19,0.551
+note mid,jasmine,fav,69,20,20.2,1.06,0.99,-0.07,0.98,0.94
+note mid,lavender,top10000,21,9,10.5,0.86,0.86,-0.01,0.72,0.459
+note mid,lavender,bagus,22,11,8.6,1.28,1.28,-0.0,1.63,0.266
+note mid,lavender,fav,22,9,6.1,1.5,1.48,-0.02,1.95,0.141
+note mid,lily of the valley,top10000,37,20,19.9,1.09,1.01,-0.08,1.02,0.962
+note mid,lily of the valley,bagus,40,19,15.6,1.22,1.22,0.0,1.55,0.213
+note mid,lily of the valley,fav,40,12,10.9,1.1,1.1,0.01,1.2,0.653
+note mid,magnolia,top10000,7,0,2.6,0.0,0.0,0.0,0.0,0.027
+note mid,magnolia,bagus,7,3,2.9,1.1,1.02,-0.08,1.05,0.954
+note mid,magnolia,fav,7,1,2.0,0.52,0.49,-0.03,0.36,0.362
+note mid,marine/aquatic/salt,top10000,12,10,5.5,1.68,1.81,0.13,6.09,0.004
+note mid,marine/aquatic/salt,bagus,12,8,4.8,1.71,1.67,-0.04,3.1,0.052
+note mid,marine/aquatic/salt,fav,12,5,3.2,1.53,1.56,0.03,2.17,0.227
+note mid,milk/cream,top10000,8,6,3.7,1.51,1.63,0.12,4.77,0.072
+note mid,milk/cream,bagus,10,4,3.5,1.03,1.13,0.11,1.24,0.747
+note mid,milk/cream,fav,10,0,2.1,0.0,0.0,0.0,0.0,0.086
+note mid,neroli,top10000,8,6,3.9,1.51,1.53,0.02,3.24,0.097
+note mid,neroli,bagus,8,5,3.5,1.6,1.42,-0.19,2.21,0.285
+note mid,neroli,fav,8,4,2.6,1.83,1.52,-0.32,2.11,0.297
+note mid,nutmeg,top10000,9,4,4.4,0.9,0.91,0.02,0.83,0.783
+note mid,nutmeg,bagus,9,3,3.0,0.86,1.01,0.15,1.01,0.986
+note mid,nutmeg,fav,9,2,2.0,0.81,0.99,0.17,0.98,0.98
+note mid,orange,top10000,11,5,5.7,0.92,0.88,-0.04,0.74,0.639
+note mid,orange,bagus,13,4,4.6,0.79,0.86,0.07,0.78,0.692
+note mid,orange,fav,13,3,3.0,0.85,1.01,0.17,1.02,0.983
+note mid,orange blossom,top10000,18,11,9.5,1.23,1.16,-0.07,1.53,0.418
+note mid,orange blossom,bagus,18,12,7.2,1.71,1.68,-0.03,3.26,0.015
+note mid,orange blossom,fav,18,11,5.0,2.24,2.21,-0.03,4.71,0.001
+note mid,patchouli,top10000,6,3,3.4,1.01,0.88,-0.13,0.71,0.71
+note mid,patchouli,bagus,6,2,2.1,0.86,0.96,0.1,0.93,0.938
+note mid,patchouli,fav,6,0,1.3,0.0,0.0,0.0,0.0,0.172
+note mid,peony,top10000,14,7,7.2,1.01,0.97,-0.04,0.9,0.882
+note mid,peony,bagus,14,7,6.0,1.28,1.17,-0.12,1.35,0.577
+note mid,peony,fav,14,5,4.3,1.31,1.17,-0.14,1.28,0.661
+note mid,rose,top10000,57,27,28.4,0.96,0.95,-0.01,0.85,0.637
+note mid,rose,bagus,60,17,23.9,0.73,0.71,-0.02,0.5,0.034
+note mid,rose,fav,60,10,17.2,0.61,0.58,-0.03,0.38,0.015
+note mid,sage,top10000,8,4,4.8,1.01,0.83,-0.18,0.62,0.531
+note mid,sage,bagus,8,5,2.6,1.6,1.92,0.31,4.05,0.063
+note mid,sage,fav,8,5,1.7,2.29,3.0,0.72,8.62,0.003
+note mid,sandalwood,top10000,8,5,3.9,1.26,1.3,0.04,2.06,0.375
+note mid,sandalwood,bagus,8,4,2.6,1.28,1.55,0.26,2.34,0.253
+note mid,sandalwood,fav,8,1,1.6,0.46,0.63,0.17,0.57,0.581
+note mid,tea/matcha,top10000,10,4,4.7,0.81,0.85,0.04,0.75,0.595
+note mid,tea/matcha,bagus,13,5,5.6,0.99,0.9,-0.09,0.82,0.749
+note mid,tea/matcha,fav,13,2,3.9,0.56,0.52,-0.05,0.39,0.242
+note mid,tuberose,top10000,13,7,6.9,1.09,1.01,-0.08,1.03,0.965
+note mid,tuberose,bagus,14,3,5.2,0.55,0.58,0.03,0.44,0.209
+note mid,tuberose,fav,14,2,3.3,0.52,0.6,0.07,0.51,0.373
+note mid,vanilla,top10000,13,10,6.8,1.55,1.47,-0.08,4.19,0.053
+note mid,vanilla,bagus,13,5,4.7,0.99,1.07,0.08,1.11,0.855
+note mid,vanilla,fav,13,4,3.2,1.13,1.27,0.14,1.41,0.571
+note mid,violet,top10000,18,12,10.2,1.34,1.17,-0.17,1.66,0.347
+note mid,violet,bagus,19,9,6.7,1.22,1.34,0.12,1.81,0.249
+note mid,violet,fav,19,6,4.8,1.16,1.26,0.1,1.46,0.489
+note mid,woody (generic),top10000,8,5,3.5,1.26,1.43,0.17,2.52,0.242
+note mid,woody (generic),bagus,8,5,3.3,1.6,1.53,-0.07,2.53,0.194
+note mid,woody (generic),fav,8,4,2.5,1.83,1.57,-0.26,2.23,0.253
+note mid,ylang-ylang,top10000,17,9,9.2,1.07,0.98,-0.09,0.95,0.925
+note mid,ylang-ylang,bagus,17,5,6.5,0.76,0.77,0.02,0.68,0.441
+note mid,ylang-ylang,fav,17,4,4.7,0.86,0.84,-0.02,0.8,0.671
+note base,amber,top10000,79,43,40.1,1.1,1.07,-0.02,1.29,0.379
+note base,amber,bagus,80,34,29.8,1.09,1.14,0.05,1.41,0.228
+note base,amber,fav,80,24,20.5,1.1,1.17,0.07,1.4,0.277
+note base,ambergris,top10000,8,3,4.0,0.76,0.74,-0.01,0.53,0.426
+note base,ambergris,bagus,8,6,3.0,1.93,2.02,0.09,7.39,0.022
+note base,ambergris,fav,8,4,1.9,1.83,2.1,0.27,3.19,0.071
+note base,amberwood,top10000,7,4,2.9,1.15,1.38,0.23,1.82,0.368
+note base,amberwood,bagus,9,5,3.6,1.43,1.4,-0.02,1.98,0.312
+note base,amberwood,fav,9,4,2.6,1.63,1.53,-0.1,2.15,0.294
+note base,ambrette,top10000,6,3,2.6,1.01,1.14,0.13,1.36,0.749
+note base,ambrette,bagus,6,1,2.5,0.43,0.4,-0.02,0.29,0.213
+note base,ambrette,fav,6,1,1.8,0.61,0.55,-0.06,0.45,0.457
+note base,ambroxan (sintetis),top10000,14,6,5.3,0.86,1.13,0.27,1.24,0.674
+note base,ambroxan (sintetis),bagus,14,12,6.0,2.2,2.0,-0.2,9.06,0.001
+note base,ambroxan (sintetis),fav,14,12,4.3,3.14,2.81,-0.33,15.49,0.0
+note base,benzoin,top10000,6,0,2.4,0.0,0.0,0.0,0.0,0.027
+note base,benzoin,bagus,6,4,2.6,1.71,1.53,-0.19,2.42,0.248
+note base,benzoin,fav,6,2,1.9,1.22,1.07,-0.15,1.12,0.901
+note base,caramel,top10000,14,9,7.5,1.3,1.19,-0.1,1.84,0.381
+note base,caramel,bagus,14,9,5.4,1.65,1.67,0.02,3.09,0.04
+note base,caramel,fav,14,6,3.8,1.57,1.6,0.03,2.19,0.157
+note base,cashmeran,top10000,21,14,10.1,1.34,1.39,0.04,2.77,0.057
+note base,cashmeran,bagus,21,7,8.2,0.86,0.86,0.0,0.77,0.584
+note base,cashmeran,fav,21,5,5.7,0.87,0.87,-0.0,0.81,0.7
+note base,cedarwood,top10000,45,24,23.6,1.08,1.01,-0.06,1.05,0.898
+note base,cedarwood,bagus,50,21,19.2,1.08,1.09,0.02,1.22,0.548
+note base,cedarwood,fav,50,18,13.8,1.32,1.3,-0.02,1.72,0.132
+note base,guaiac wood,top10000,8,3,2.8,0.76,1.06,0.3,1.11,0.901
+note base,guaiac wood,bagus,8,6,3.4,1.93,1.75,-0.18,4.13,0.057
+note base,guaiac wood,fav,8,5,2.4,2.29,2.06,-0.23,4.47,0.04
+note base,incense,top10000,7,2,2.8,0.58,0.71,0.13,0.59,0.508
+note base,incense,bagus,7,6,2.9,2.2,2.05,-0.16,9.98,0.017
+note base,incense,fav,7,4,2.0,2.09,1.97,-0.13,3.49,0.095
+note base,labdanum,top10000,7,3,3.4,0.86,0.87,0.01,0.68,0.709
+note base,labdanum,bagus,7,4,2.6,1.47,1.55,0.08,2.79,0.247
+note base,labdanum,fav,7,3,1.7,1.57,1.72,0.15,2.67,0.247
+note base,leather,top10000,9,3,5.1,0.67,0.59,-0.08,0.25,0.122
+note base,leather,bagus,9,2,3.5,0.57,0.58,0.01,0.4,0.3
+note base,leather,fav,9,2,2.3,0.81,0.85,0.04,0.79,0.787
+note base,milk/cream,top10000,4,2,1.9,1.01,1.03,0.02,1.07,0.957
+note base,milk/cream,bagus,6,2,2.1,0.86,0.97,0.12,0.96,0.961
+note base,milk/cream,fav,6,0,1.4,0.0,0.0,0.0,0.0,0.173
+note base,musk,top10000,135,65,68.2,0.97,0.95,-0.02,0.78,0.375
+note base,musk,bagus,141,61,54.9,1.11,1.11,0.0,1.53,0.105
+note base,musk,fav,141,47,38.9,1.22,1.21,-0.01,1.99,0.018
+note base,oakmoss,top10000,21,8,10.3,0.77,0.78,0.01,0.55,0.265
+note base,oakmoss,bagus,22,13,8.4,1.52,1.54,0.02,2.68,0.033
+note base,oakmoss,fav,22,11,6.0,1.83,1.82,-0.01,3.14,0.011
+note base,patchouli,top10000,59,29,28.8,0.99,1.01,0.01,1.02,0.956
+note base,patchouli,bagus,60,17,23.2,0.73,0.73,0.01,0.53,0.058
+note base,patchouli,fav,60,15,15.9,0.92,0.94,0.03,0.9,0.76
+note base,praline,top10000,9,7,4.9,1.57,1.43,-0.14,3.62,0.119
+note base,praline,bagus,9,3,3.6,0.86,0.82,-0.03,0.74,0.655
+note base,praline,fav,9,1,2.6,0.41,0.39,-0.02,0.34,0.238
+note base,sandalwood,top10000,43,21,23.8,0.98,0.88,-0.1,0.67,0.3
+note base,sandalwood,bagus,45,12,16.3,0.68,0.74,0.05,0.58,0.137
+note base,sandalwood,fav,45,6,11.4,0.49,0.53,0.04,0.4,0.036
+note base,tonka bean,top10000,40,24,21.3,1.21,1.13,-0.08,1.46,0.308
+note base,tonka bean,bagus,41,20,15.9,1.25,1.26,0.01,1.65,0.143
+note base,tonka bean,fav,41,17,11.4,1.52,1.5,-0.02,2.21,0.028
+note base,vanilla,top10000,82,40,43.6,0.98,0.92,-0.07,0.74,0.288
+note base,vanilla,bagus,85,32,31.8,0.97,1.01,0.04,1.02,0.947
+note base,vanilla,fav,85,20,22.5,0.86,0.89,0.03,0.78,0.437
+note base,vetiver,top10000,30,14,13.8,0.94,1.02,0.08,1.05,0.918
+note base,vetiver,bagus,32,9,12.2,0.72,0.74,0.01,0.58,0.203
+note base,vetiver,fav,32,6,8.2,0.69,0.73,0.05,0.63,0.333
+note base,woody (generic),top10000,30,12,13.1,0.81,0.91,0.11,0.82,0.632
+note base,woody (generic),bagus,30,9,12.1,0.77,0.74,-0.03,0.6,0.213
+note base,woody (generic),fav,30,4,8.5,0.49,0.47,-0.02,0.36,0.047
+origin,Lokal,top10000,222,118,110.1,1.07,1.07,-0.0,15.6,0.0
+origin,Lokal,bagus,231,84,89.9,0.93,0.93,0.0,0.28,0.003
+origin,Lokal,fav,231,56,63.1,0.89,0.89,-0.0,0.22,0.0
+origin,Timteng,top10000,18,1,8.9,0.11,0.11,0.0,0.06,0.0
+origin,Timteng,bagus,18,13,7.1,1.85,1.83,-0.02,3.59,0.003
+origin,Timteng,fav,18,12,4.9,2.44,2.45,0.01,4.61,0.0
+conc_short,Extrait,top10000,118,65,59.4,1.11,1.09,-0.02,1.53,0.111
+conc_short,Extrait,bagus,124,52,48.2,1.08,1.08,0.0,1.29,0.321
+conc_short,Extrait,fav,124,40,33.9,1.18,1.18,0.0,1.66,0.075
+conc_short,EDP,top10000,122,54,59.6,0.89,0.91,0.01,0.65,0.111
+conc_short,EDP,bagus,125,45,48.8,0.92,0.92,-0.0,0.77,0.321
+conc_short,EDP,fav,125,28,34.1,0.82,0.82,-0.0,0.6,0.075
+dupe_type,single (1 parfum),top10000,152,83,73.5,1.1,1.13,0.03,2.33,0.005
+dupe_type,single (1 parfum),bagus,158,72,62.3,1.17,1.16,-0.01,2.16,0.007
+dupe_type,single (1 parfum),fav,158,49,44.0,1.14,1.11,-0.02,1.62,0.128
+dupe_type,blend (perpaduan >=2 parfum),top10000,37,25,22.7,1.36,1.1,-0.26,1.5,0.351
+dupe_type,blend (perpaduan >=2 parfum),bagus,40,15,15.5,0.96,0.97,0.0,0.93,0.845
+dupe_type,blend (perpaduan >=2 parfum),fav,40,13,11.0,1.19,1.18,-0.01,1.41,0.405
+dupe_type,original creation (bukan dupe),top10000,44,10,20.0,0.46,0.5,0.04,0.23,0.0
+dupe_type,original creation (bukan dupe),bagus,44,9,16.4,0.53,0.55,0.02,0.36,0.009
+dupe_type,original creation (bukan dupe),fav,44,5,11.0,0.42,0.45,0.04,0.32,0.018
+dupe_type,deskripsi / brand saja,top10000,4,0,1.4,0.0,0.0,0.0,0.0,0.135
+dupe_type,deskripsi / brand saja,bagus,4,1,1.8,0.64,0.56,-0.08,0.37,0.416
+dupe_type,deskripsi / brand saja,fav,4,1,1.4,0.92,0.73,-0.19,0.62,0.692
+dupe_type,parfum + keterangan,top10000,3,1,1.4,0.67,0.71,0.04,0.5,0.637
+dupe_type,parfum + keterangan,bagus,3,0,1.0,0.0,0.0,0.0,0.0,0.223
+dupe_type,parfum + keterangan,fav,3,0,0.6,0.0,0.0,0.0,0.0,0.355
+multi_size,2+ ukuran,top10000,87,54,42.1,1.25,1.28,0.03,2.84,0.0
+multi_size,2+ ukuran,bagus,88,36,35.1,1.05,1.03,-0.02,1.08,0.795
+multi_size,2+ ukuran,fav,88,27,24.7,1.12,1.09,-0.03,1.26,0.471
+multi_size,1 ukuran,top10000,153,65,76.9,0.86,0.85,-0.01,0.35,0.0
+multi_size,1 ukuran,bagus,161,61,61.9,0.97,0.99,0.01,0.93,0.795
+multi_size,1 ukuran,fav,161,41,43.3,0.93,0.95,0.01,0.79,0.471
+price_band,Q2,top10000,59,37,31.6,1.26,1.17,-0.09,1.9,0.071
+price_band,Q2,bagus,62,16,22.0,0.66,0.73,0.06,0.53,0.055
+price_band,Q2,fav,62,9,15.1,0.53,0.6,0.07,0.42,0.032
+price_band,Q3,top10000,61,39,27.1,1.29,1.44,0.15,3.76,0.0
+price_band,Q3,bagus,62,35,25.9,1.45,1.35,-0.1,2.27,0.005
+price_band,Q3,fav,62,22,18.7,1.3,1.18,-0.12,1.38,0.267
+price_band,Q4 termahal,top10000,62,18,26.3,0.59,0.68,0.1,0.4,0.006
+price_band,Q4 termahal,bagus,62,28,26.0,1.16,1.08,-0.08,1.21,0.54
+price_band,Q4 termahal,fav,62,26,17.9,1.54,1.45,-0.08,2.46,0.006
+price_band,Q1 termurah,top10000,58,25,34.1,0.87,0.73,-0.14,0.34,0.002
+price_band,Q1 termurah,bagus,63,18,23.0,0.73,0.78,0.05,0.59,0.111
+price_band,Q1 termurah,fav,63,11,16.4,0.64,0.67,0.03,0.47,0.06
+size_bucket,maks 51-100ml,top10000,143,68,67.4,0.96,1.01,0.05,1.05,0.86
+size_bucket,maks 51-100ml,bagus,144,64,58.5,1.14,1.09,-0.05,1.52,0.126
+size_bucket,maks 51-100ml,fav,144,48,41.1,1.22,1.17,-0.05,1.91,0.033
+size_bucket,maks 50ml,top10000,67,31,34.6,0.93,0.9,-0.04,0.69,0.259
+size_bucket,maks 50ml,bagus,73,27,26.1,0.95,1.04,0.09,1.09,0.777
+size_bucket,maks 50ml,fav,73,16,18.0,0.8,0.89,0.09,0.8,0.503
+size_bucket,maks <=35ml,top10000,30,20,17.0,1.34,1.17,-0.17,1.91,0.184
+size_bucket,maks <=35ml,bagus,32,6,12.4,0.48,0.48,0.0,0.26,0.008
+size_bucket,maks <=35ml,fav,32,4,8.9,0.46,0.45,-0.01,0.28,0.024
+kelompok,Mykonos,top10000,54,41,25.0,1.53,1.64,0.11,8.16,0.0
+kelompok,Mykonos,bagus,63,34,24.5,1.39,1.39,0.0,2.27,0.004
+kelompok,Mykonos,fav,63,22,16.7,1.28,1.32,0.04,1.72,0.072
+kelompok,Velixir,top10000,24,17,7.9,1.43,2.15,0.72,12.27,0.0
+kelompok,Velixir,bagus,24,10,11.0,1.07,0.91,-0.16,0.79,0.625
+kelompok,Velixir,fav,24,5,8.3,0.76,0.6,-0.16,0.42,0.106
+kelompok,SAFF & Co.,top10000,23,18,13.2,1.58,1.36,-0.22,4.03,0.019
+kelompok,SAFF & Co.,bagus,23,6,8.9,0.67,0.67,0.0,0.49,0.173
+kelompok,SAFF & Co.,fav,23,4,6.5,0.64,0.62,-0.02,0.47,0.198
+kelompok,Project 1945,top10000,13,5,7.1,0.78,0.71,-0.07,0.36,0.194
+kelompok,Project 1945,bagus,13,10,5.1,1.97,1.95,-0.03,6.29,0.004
+kelompok,Project 1945,fav,13,4,3.5,1.13,1.15,0.03,1.25,0.723
+kelompok,Aoera,top10000,13,1,5.2,0.16,0.19,0.04,0.09,0.011
+kelompok,Aoera,bagus,13,5,5.2,0.99,0.97,-0.02,0.94,0.92
+kelompok,Aoera,fav,13,3,4.0,0.85,0.75,-0.1,0.63,0.517
+kelompok,Alchemist Fragrance,top10000,10,5,5.8,1.01,0.87,-0.14,0.58,0.565
+kelompok,Alchemist Fragrance,bagus,10,2,3.5,0.51,0.57,0.06,0.42,0.286
+kelompok,Alchemist Fragrance,fav,10,2,2.0,0.73,0.99,0.26,0.99,0.988
+kelompok,LAYR,top10000,15,3,7.3,0.4,0.41,0.01,0.15,0.013
+kelompok,LAYR,bagus,15,3,4.8,0.51,0.63,0.11,0.47,0.282
+kelompok,LAYR,fav,15,3,3.1,0.73,0.96,0.22,0.93,0.926
+kelompok,HMNS,top10000,20,14,10.5,1.41,1.33,-0.08,2.78,0.073
+kelompok,HMNS,bagus,20,3,8.1,0.39,0.37,-0.01,0.22,0.015
+kelompok,HMNS,fav,20,3,5.7,0.55,0.52,-0.02,0.37,0.15
+kelompok,Onix,top10000,13,6,8.3,0.93,0.72,-0.21,0.37,0.129
+kelompok,Onix,bagus,13,3,5.0,0.59,0.6,0.01,0.41,0.221
+kelompok,Onix,fav,13,3,3.8,0.85,0.79,-0.06,0.66,0.583
+kelompok,Timteng,top10000,18,1,8.9,0.11,0.11,0.0,0.06,0.0
+kelompok,Timteng,bagus,18,13,7.1,1.85,1.83,-0.02,3.59,0.003
+kelompok,Timteng,fav,18,12,4.9,2.44,2.45,0.01,4.61,0.0
+kelompok,Fordive,top10000,12,4,5.6,0.67,0.71,0.04,0.41,0.306
+kelompok,Fordive,bagus,12,4,4.9,0.86,0.82,-0.03,0.75,0.602
+kelompok,Fordive,fav,12,3,3.4,0.92,0.89,-0.02,0.87,0.813
+kelompok,BSP,top10000,25,4,14.2,0.32,0.28,-0.04,0.04,0.0
+kelompok,BSP,bagus,25,4,9.0,0.41,0.45,0.03,0.3,0.025
+kelompok,BSP,fav,25,4,6.1,0.59,0.65,0.07,0.55,0.289
