@@ -265,9 +265,9 @@ class Store:
         if kuadran:
             if "kuadran" in d.columns:
                 q_map = {
-                    "peluang": "SEPI tapi LARIS",
-                    "terbukti": "RAMAI & LARIS",
-                    "hati_hati": "RAMAI tapi",
+                    "peluang": "peluang",
+                    "terbukti": "RAMAI",
+                    "hati_hati": "biasa",
                     "sepi": "sepi"
                 }
                 kw = q_map.get(kuadran, kuadran)
