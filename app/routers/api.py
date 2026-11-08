@@ -7,10 +7,11 @@ from app.services.data import get_store
 from app.services.keputusan_engine import KeputusanEngine
 
 # Absolut path ke folder data dan output di root parfum
-DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data"))
-MODEL_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/models/model_permintaan.joblib"))
+DATA_DIR = r"C:\Users\muham\Desktop\parfum\data"
+MODEL_PATH = r"C:\Users\muham\Desktop\parfum\output\model_permintaan.joblib"
 
-engine = KeputusanEngine(data_dir=DATA_DIR, model_path=MODEL_PATH)
+# Pastikan file katalog ada di folder root data
+ROOT_DATA_DIR = r"C:\Users\muham\Desktop\parfum\data"
 from pydantic import BaseModel, Field
 from typing import Literal
 from fastapi import UploadFile, File, Form, HTTPException
@@ -335,15 +336,51 @@ def spk_konsultasi_custom(body: CustomSimulasiIn):
 
 
 
-@router.get("/keputusan")
-def spk_keputusan(dupe: str | None = None, target_laba_hari: float = 250000, target_balik_modal_hari: int = 180, modal_maks: float = 30000000, lead_hari: int = 30, hari: int = 60):
-    res = engine.rekomendasi(dupe_dari=dupe, target_laba_hari=target_laba_hari, target_balik_modal_hari=target_balik_modal_hari, modal_maks=modal_maks, lead_hari=lead_hari)
-    res.pop("dataset", None)
-    if res["rekomendasi"]:
-        b = res["rekomendasi"][0]
-        res["rencana_harian"] = engine.rencana_harian(b, hari, lead_hari).to_dict("records")
-        res["garis_peringatan"] = engine.checkpoint(b, target_balik_modal_hari, lead_hari)
-    return res
+@router.get("/katalog-maklon/rekomendasi")
+def rekomendasi_katalog_maklon(limit: int = 30):
+    import os, pandas as pd, numpy as np
+    from app.services.data import DATA_DIR
+    path = os.path.join(DATA_DIR, "katalog_x_shopee.csv")
+    if not os.path.exists(path):
+        return {"status": "gagal", "pesan": f"File katalog_x_shopee.csv tidak ditemukan di {path}."}
+    
+    try:
+        df = pd.read_csv(path, sep=";", on_bad_lines="skip")
+        if len(df.columns) <= 1:
+            df = pd.read_csv(path, sep=",", on_bad_lines="skip")
+    except Exception as e:
+        return {"status": "gagal", "pesan": str(e)}
+
+    df = df.replace({np.nan: None, np.inf: None, -np.inf: None})
+    hasil = df.head(limit).to_dict(orient="records")
+    return {
+        "status": "sukses",
+        "total": len(df),
+        "rekomendasi": hasil
+    }
+
+@router.get("/katalog-maklon/peluang-belum")
+def peluang_belum_di_katalog(limit: int = 30):
+    import os, pandas as pd, numpy as np
+    from app.services.data import DATA_DIR
+    path = os.path.join(DATA_DIR, "peluang_aroma_belum_di_katalog.csv")
+    if not os.path.exists(path):
+        return {"status": "gagal", "pesan": f"File peluang_aroma_belum_di_katalog.csv tidak ditemukan di {path}."}
+    
+    try:
+        df = pd.read_csv(path, sep=";", on_bad_lines="skip")
+        if len(df.columns) <= 1:
+            df = pd.read_csv(path, sep=",", on_bad_lines="skip")
+    except Exception as e:
+        return {"status": "gagal", "pesan": str(e)}
+
+    df = df.replace({np.nan: None, np.inf: None, -np.inf: None})
+    hasil = df.head(limit).to_dict(orient="records")
+    return {
+        "status": "sukses",
+        "total": len(df),
+        "peluang": hasil
+    }
 
 @router.get("/kalibrasi")
 def spk_kalibrasi(dupe: str | None = None, terjual: float = 14, hari: float = 14, target_laba_hari: float = 250000, target_balik_modal_hari: int = 180, lead_hari: int = 30):
