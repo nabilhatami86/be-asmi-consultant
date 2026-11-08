@@ -1,0 +1,19 @@
+key,nilai,keterangan
+varian,4.0,Jumlah varian aroma
+botol_per_varian_default,100.0,Botol per varian
+dp_persen,0.7,DP maklon
+bpom_per_aroma,1000000.0,Notifikasi BPOM per aroma
+halal_per_aroma,250000.0,Sertifikasi Halal per aroma
+hki_total,0.0,Pendaftaran merek (HKI) total
+botol_35,8000.0,Botol 35ml (markup 2x)
+box_35,7000.0,Box custom 35ml (markup 2x)
+shrink_35,2000.0,Shrink wrap 35ml (markup 2x)
+botol_50,10000.0,Botol 50ml (ASUMSI)
+box_50,8000.0,Box custom 50ml (ASUMSI)
+shrink_50,2000.0,Shrink wrap 50ml (ASUMSI)
+packing_per_pesanan,2500.0,Packing pengiriman per pesanan
+iklan_pct,0.05,Biaya iklan / endorse (% dari penjualan)
+retur_pct,0.02,Buffer retur / rusak / batal (% dari penjualan)
+target_margin,0.25,Target margin bersih (% dari harga jual)
+diskon_coret,0.1,Diskon penjual untuk harga coret
+pembulatan,1000.0,Pembulatan harga ke atas

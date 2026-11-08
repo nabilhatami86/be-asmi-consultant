@@ -1,0 +1,8 @@
+skenario,kanal,admin,pph,program,cap_program,afiliasi,iklan,retur,biaya_tetap,target_margin
+Shopee S1: Tanpa program,Shopee,0.0825,0.005,0.0,0,0.0,0.05,0.02,1250,0.25
+"Shopee S2: GOX 5,5% (s/d 30 Nov)",Shopee,0.0825,0.005,0.055,40000,0.0,0.05,0.02,1250,0.25
+Shopee S3: GOX 9% (mulai 1 Des),Shopee,0.0825,0.005,0.09,60000,0.0,0.05,0.02,1250,0.25
+Shopee S4: Afiliasi saja,Shopee,0.0825,0.005,0.0,0,0.1,0.05,0.02,1250,0.25
+Shopee S5: GOX 9% + Afiliasi,Shopee,0.0825,0.005,0.09,60000,0.1,0.05,0.02,1250,0.25
+TikTok T1: Tanpa afiliasi,TikTok,0.08,0.005,0.07,60000,0.0,0.05,0.02,3750,0.25
+TikTok T2: Dengan afiliasi,TikTok,0.08,0.005,0.07,60000,0.1,0.05,0.02,3750,0.25

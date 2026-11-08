@@ -1,8 +1,16 @@
 from __future__ import annotations
 
 from fastapi import APIRouter
+import os
 from app.services import fallback, llm
 from app.services.data import get_store
+from app.services.keputusan_engine import KeputusanEngine
+
+# Absolut path ke folder data dan output di root parfum
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data"))
+MODEL_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../data/models/model_permintaan.joblib"))
+
+engine = KeputusanEngine(data_dir=DATA_DIR, model_path=MODEL_PATH)
 from pydantic import BaseModel, Field
 from typing import Literal
 from fastapi import UploadFile, File, Form, HTTPException
@@ -146,3 +154,203 @@ Jawab dalam Bahasa Indonesia yang santai tapi profesional."""
             )
             return {"report": demo_text, "mode": "demo", "tools": [], "data": data}
     return {"report": "Mode demo: AI tidak aktif.", "mode": "demo", "tools": [], "data": data}
+
+from pydantic import BaseModel
+from typing import Optional, List
+
+class CustomSimulasiItem(BaseModel):
+    nama_produk: str
+    konsentrasi: Optional[str] = "EDP"
+    modal_total: float
+    jumlah_pcs: int
+    harga_jual: float
+
+class CustomSimulasiIn(BaseModel):
+    items: List[CustomSimulasiItem]
+    biaya_tambahan: Optional[float] = 0.0
+    legalitas_box_botol: Optional[float] = 0.0
+    pinjam_bri: Optional[bool] = True
+    tenor_bri: Optional[int] = 36
+    pinjam_jatim: Optional[bool] = True
+    tenor_jatim: Optional[int] = 36
+
+@router.post("/konsultasi-custom")
+def spk_konsultasi_custom(body: CustomSimulasiIn):
+    hasil_simulasi = []
+    total_modal_keseluruhan = 0.0
+    total_potensi_laba = 0.0
+    total_target_jual_per_hari = 0.0
+    
+    for item in body.items:
+        modal = item.modal_total
+        pcs = max(item.jumlah_pcs, 1)
+        harga = item.harga_jual
+        
+        hpp_satuan = modal / pcs
+        
+        pot_shopee_s1 = harga * 0.08
+        pot_shopee_s3 = harga * 0.18
+        pot_tiktok = harga * 0.16
+        
+        biaya_packing = 5000
+        
+        laba_shopee_s1 = harga - hpp_satuan - pot_shopee_s1 - biaya_packing
+        laba_shopee_s3 = harga - hpp_satuan - pot_shopee_s3 - biaya_packing
+        laba_tiktok = harga - hpp_satuan - pot_tiktok - biaya_packing
+        
+        laba_per_pcs = laba_shopee_s3
+        laba_total = laba_per_pcs * pcs
+        
+        dp_awal = modal * 0.7
+        pelunasan = modal * 0.3
+        
+        target_jual_per_hari = max(round(pcs / 30.0), 1)
+        total_target_jual_per_hari += target_jual_per_hari
+        
+        hari_balik_modal = int(modal / (laba_per_pcs * target_jual_per_hari)) if laba_per_pcs > 0 else 999
+        
+        total_modal_keseluruhan += modal
+        total_potensi_laba += laba_total
+        
+        hasil_simulasi.append({
+            "nama_produk": item.nama_produk,
+            "konsentrasi": item.konsentrasi,
+            "modal_total": modal,
+            "dp_awal": round(dp_awal, 0),
+            "pelunasan": round(pelunasan, 0),
+            "jumlah_pcs": pcs,
+            "hpp_satuan": round(hpp_satuan, 0),
+            "harga_jual": harga,
+            "target_jual_per_hari": target_jual_per_hari,
+            "laba_per_pcs": round(laba_per_pcs, 0),
+            "laba_total": round(laba_total, 0),
+            "estimasi_hari_balik_modal": max(hari_balik_modal, 1),
+            "rincian_ecommerce": {
+                "shopee_tanpa_program": {
+                    "potongan": round(pot_shopee_s1, 0),
+                    "laba": round(laba_shopee_s1, 0)
+                },
+                "shopee_gox_9": {
+                    "potongan": round(pot_shopee_s3, 0),
+                    "laba": round(laba_shopee_s3, 0)
+                },
+                "tiktok_shop": {
+                    "potongan": round(pot_tiktok, 0),
+                    "laba": round(laba_tiktok, 0)
+                }
+            }
+        })
+        
+    # Info Cicilan Bank ganda (BRI & Bank Jatim)
+    pinjam_bri = body.pinjam_bri if body.pinjam_bri is not None else True
+    tenor_bri = body.tenor_bri or 36
+    
+    pinjam_jatim = body.pinjam_jatim if body.pinjam_jatim is not None else True
+    tenor_jatim = body.tenor_jatim or 36
+    
+    total_plafon = 0
+    total_cair_bersih = 0
+    total_cicilan_bulan = 0
+    rincian_pinjaman_teks = []
+    
+    if pinjam_bri:
+        plafon_bri = 50_000_000
+        cair_bri = 47_000_000 # dipotong 3 Juta
+        cicilan_map_bri = {12: 4326337, 18: 2934249, 24: 2238629, 36: 1543855, 48: 1197312, 60: 990060}
+        cici_bri = cicilan_map_bri.get(tenor_bri, 1543855)
+        total_plafon += plafon_bri
+        total_cair_bersih += cair_bri
+        total_cicilan_bulan += cici_bri
+        rincian_pinjaman_teks.append(f"• KUR BRI Plafon Rp 50 Juta (Dipotong Rp 3 Juta, Cair Bersih: Rp{cair_bri:,.0f}) | Tenor {tenor_bri} Bln | Cicilan: Rp{cici_bri:,.0f}/bln")
+        
+    if pinjam_jatim:
+        plafon_jatim = 25_000_000
+        cair_jatim = 22_000_000 # Plafon 25 Juta dipotong 3 Juta = Cair 22 Juta
+        cicilan_map_jatim = {12: 2150000, 24: 1120000, 36: 760548, 48: 587126}
+        cici_jatim = cicilan_map_jatim.get(tenor_jatim, 760548)
+        total_plafon += plafon_jatim
+        total_cair_bersih += cair_jatim
+        total_cicilan_bulan += cici_jatim
+        rincian_pinjaman_teks.append(f"• KUR Bank Jatim Plafon Rp 25 Juta (Dipotong Rp 3 Juta, Cair Bersih: Rp{cair_jatim:,.0f}) | Tenor {tenor_jatim} Bln | Cicilan: Rp{cici_jatim:,.0f}/bln")
+
+    # Pisahkan komponen biaya: 
+    # - Modal Maklon: murni akumulasi dari input modal total seluruh varian (EDP + Extrait)
+    # - Operasional: akumulasi dari input tambahan (box, botol, BPOM, halal, marketing, dll)
+    biaya_operasional_murni = body.biaya_tambahan or 0.0
+    legalitas_box_botol = body.legalitas_box_botol or 0.0
+    
+    # Total Modal Maklon = Akumulasi modal varian (EDP/Extrait) + Box/Botol + BPOM & Halal
+    total_modal_maklon_riil = total_modal_keseluruhan + legalitas_box_botol
+    
+    # Total Kebutuhan Dana Keseluruhan = Modal Maklon + Operasional (Marketing, Darurat, Alat, dll)
+    total_kebutuhan_dana = total_modal_maklon_riil + biaya_operasional_murni
+
+    saran_ai_analisis = f" LAPORAN STRATEGIS & KELAYAKAN USAHA OLEH AI\n\n"
+    if rincian_pinjaman_teks:
+        saran_ai_analisis += "1. Rencana Pendanaan Modal:\n"
+        for r in rincian_pinjaman_teks:
+            saran_ai_analisis += f"   {r}\n"
+        saran_ai_analisis += f"   • Akumulasi Plafon Pinjaman: Rp{total_plafon:,.0f}\n"
+        saran_ai_analisis += f"   • Total Dana Bersih Diterima: Rp{total_cair_bersih:,.0f}\n"
+        saran_ai_analisis += f"   • Total Kewajiban Cicilan: Rp{total_cicilan_bulan:,.0f} per bulan\n\n"
+    else:
+        saran_ai_analisis += "1. Rencana Pendanaan: Menggunakan Modal Mandiri (Tanpa Pinjaman Bank).\n\n"
+
+    if rincian_pinjaman_teks:
+        if total_kebutuhan_dana > total_cair_bersih:
+            selisih = total_kebutuhan_dana - total_cair_bersih
+            saran_ai_analisis += f"2. Status Kecukupan Modal: PERINGATAN DEFISIT! Total kebutuhan modal usaha Anda (Rp{total_kebutuhan_dana:,.0f}) melebihi dana pinjaman cair bersih (Rp{total_cair_bersih:,.0f}) sebesar Rp{selisih:,.0f}. Anda wajib menyiapkan tambahan modal pribadi.\n\n"
+        else:
+            sisa_kas = total_cair_bersih - total_kebutuhan_dana
+            saran_ai_analisis += f"2. Status Kecukupan Modal: AMAN & TERCOVER. Total kebutuhan modal usaha Anda sebesar Rp{total_kebutuhan_dana:,.0f} (Maklon + Operasional) sudah tertutupi penuh oleh pinjaman bank. Anda bahkan memiliki sisa kas cadangan awal sebesar Rp{sisa_kas:,.0f} untuk modal kerja.\n\n"
+
+    saran_ai_analisis += (
+        f"3. Proyeksi Beban & Profitabilitas:\n"
+        f"   - Beban Cicilan Rutin: Rp{total_cicilan_bulan:,.0f} / bulan.\n"
+        f"   - Proyeksi Potensi Laba Bersih: Rp{total_potensi_laba:,.0f} (dari {len(body.items)} varian produk jika seluruh stok batch pertama habis terjual).\n"
+        f"   - Target Penjualan Ideal: {total_target_jual_per_hari} botol per hari.\n\n"
+        f"4. Rekomendasi Eksekusi & Pengamanan Kas:\n"
+        f"   - Pastikan Anda membuat rekening terpisah untuk operasional dan cicilan bank.\n"
+        f"   - Amankan minimal 35% dari omzet penjualan harian setiap harinya khusus untuk membayar cicilan bulanan bank sebelum Anda memutar kembali modal untuk re-order stok."
+    )
+
+    return {
+        "status": "sukses",
+        "total_modal_keseluruhan": round(total_modal_maklon_riil, 0),
+        "total_biaya_tambahan": round(biaya_operasional_murni, 0),
+        "total_modal_usaha_keseluruhan": round(total_kebutuhan_dana, 0),
+        "total_potensi_laba": round(total_potensi_laba, 0),
+        "total_target_jual_per_hari": total_target_jual_per_hari,
+        "cicilan_bank_per_bulan": total_cicilan_bulan,
+        "info_bank": {
+            "nama": "KUR Gabungan BRI (Rp 50 Juta) & Bank Jatim (Rp 25 Juta)",
+            "plafon": total_plafon,
+            "cair_bersih": total_cair_bersih,
+            "rincian": rincian_pinjaman_teks
+        },
+        "saran_ai_analisis": saran_ai_analisis,
+        "hasil_simulasi": hasil_simulasi
+    }
+
+
+
+
+@router.get("/keputusan")
+def spk_keputusan(dupe: str | None = None, target_laba_hari: float = 250000, target_balik_modal_hari: int = 180, modal_maks: float = 30000000, lead_hari: int = 30, hari: int = 60):
+    res = engine.rekomendasi(dupe_dari=dupe, target_laba_hari=target_laba_hari, target_balik_modal_hari=target_balik_modal_hari, modal_maks=modal_maks, lead_hari=lead_hari)
+    res.pop("dataset", None)
+    if res["rekomendasi"]:
+        b = res["rekomendasi"][0]
+        res["rencana_harian"] = engine.rencana_harian(b, hari, lead_hari).to_dict("records")
+        res["garis_peringatan"] = engine.checkpoint(b, target_balik_modal_hari, lead_hari)
+    return res
+
+@router.get("/kalibrasi")
+def spk_kalibrasi(dupe: str | None = None, terjual: float = 14, hari: float = 14, target_laba_hari: float = 250000, target_balik_modal_hari: int = 180, lead_hari: int = 30):
+    res = engine.rekomendasi(dupe_dari=dupe, target_laba_hari=target_laba_hari, target_balik_modal_hari=target_balik_modal_hari, modal_maks=30000000, lead_hari=lead_hari)
+    res.pop("dataset", None)
+    if not res["rekomendasi"]:
+        return {"catatan": res["catatan"]}
+    return engine.kalibrasi(res["rekomendasi"][0], terjual, hari, target_laba_hari, target_balik_modal_hari, lead_hari)
+
+
